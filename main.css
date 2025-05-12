@@ -1,0 +1,24 @@
+@import url(header.css);
+
+body{
+    max-width: 100%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+}
+
+
+  .logo{
+    width: auto;
+    max-width: 150px;
+    height: 4rem;
+
+    img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    }
+  }

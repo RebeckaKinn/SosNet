@@ -17,7 +17,9 @@ function updateView(){
 function logo(){
      return /*HTML*/`
     <div class="flexRow">
-        <img src="" alt="logo">
+        <div>
+            <img class="logo" src="img/default_img.jpg" alt="logo">
+        </div>
         <p>noe kult</p>
     </div>
     `;
