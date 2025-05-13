@@ -22,4 +22,19 @@ main{
     
 }
 
+.underline{
+  border-bottom: 1px solid var(--color-main); 
+  padding: 0 5px;
+  padding-bottom: 5px;
+  transition: 0.3s;
+  a{
+    transition: 0.3s;
+  }
+}
 
+.underline:hover{
+  a{
+    font-size: large;
+    font-weight: 500;
+  }
+}

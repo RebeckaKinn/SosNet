@@ -19,6 +19,11 @@ footer{
 }
 
 
+.footer-links{
+    color: var(--color-gray);
+    font-size: 14px;
+}
+
 
 @media screen and (max-width: 600px){
 footer{
@@ -26,3 +31,4 @@ footer{
     grid-template-rows: repeat(3, 1fr);
 }
 }
+
