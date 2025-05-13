@@ -1,20 +1,21 @@
 
-
-updateView()
-function updateView(){
-    document.getElementById("app").innerHTML = /*HTML*/`
+export function header(){
+    return /*HTML*/`
     <header>
-    ${logo()}
-    ${header()}</header>
-    <main>
-    <h1>hallo</h1>
+        ${logo()}
+        ${mainNav()}
     
-    </main>
-    <footer></footer>
+    </header>
+    
     `;
 }
 
-function logo(){
+
+
+
+
+
+ function logo(){
      return /*HTML*/`
     <div class="flexRow">
         <div>
@@ -26,7 +27,7 @@ function logo(){
 }
 
 
-function header(){
+ function mainNav(){
     return /*HTML*/`
     <nav>
         <ul class="removeBullet menu">
