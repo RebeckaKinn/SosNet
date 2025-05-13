@@ -14,6 +14,8 @@ function renderLandingPage(){
                 <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                 <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video">
             </video>
+
+          
             <div class="overlay"></div>
             <div class="overlayText">
                 <h1><span class="main-color">Sos</span>Net</h1>
@@ -27,4 +29,13 @@ function renderLandingPage(){
     ${footer()}
     `;
 }
+
+
+/*
+
+  <iframe class="landingPageVideo" aria-live="polite"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1&loop=1">
+            </iframe>
+
+*/
 

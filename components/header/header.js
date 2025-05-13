@@ -17,11 +17,11 @@ export function header(){
 
  function logo(){
      return /*HTML*/`
-    <div class="flexRow">
+    <div class="menu">
         <div>
-            <img class="logo" src="img/default_img.jpg" alt="logo">
+            <img class="logo" src="img/placeholder_logo_2.png" alt="logo">
         </div>
-        <p>noe kult</p>
+        <i class="main-color">En sosial inovasjons hub</i>
     </div>
     `;
 }
@@ -30,7 +30,7 @@ export function header(){
  function mainNav(){
     return /*HTML*/`
     <nav>
-        <ul class="removeBullet menu">
+        <ul class="removeBullet menu flex-gap-1-5rem">
             <li>Om SosNet</li>
             <li>Aktuelt</li>
             <li>Kunnskap og inspirasjon</li>
