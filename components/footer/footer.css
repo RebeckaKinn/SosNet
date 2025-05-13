@@ -12,6 +12,13 @@ footer{
 }
 
 
+.footerTitle{
+    font-weight: 800;
+    font-size: 40px;
+    font-family: var(--title-font);
+}
+
+
 
 @media screen and (max-width: 600px){
 footer{
