@@ -8,9 +8,21 @@ renderLandingPage()
 function renderLandingPage(){
     document.body.innerHTML = /*HTML*/`
     ${header()}
-    <main>
-    <h1>hallo</h1>
-    
+    <main role="main">
+        <section class="landingPageVideo" aria-live="polite">
+            <video class="frontPageVideo" playsinline autoplay muted loop>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video">
+            </video>
+            <div class="overlay"></div>
+            <div class="overlayText">
+                <h1><span class="main-color">Sos</span>Net</h1>
+                <h2>En <span class="main-color">sosial innovasjons</span> hub</h2>
+                <h3>for inspirasjon og kunnskap om sosial bærekraft og sosialt entreprenærskap.</h3>
+            </div>
+        </section>
+
+        <h1>Tittel</h1>
     </main>
     ${footer()}
     `;

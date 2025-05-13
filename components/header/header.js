@@ -1,7 +1,7 @@
 
 export function header(){
     return /*HTML*/`
-    <header>
+    <header role="header">
         ${logo()}
         ${mainNav()}
     

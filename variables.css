@@ -1,4 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
-    --color-main: rgb(51, 85, 97);
+    --color-main: #00d084;
+    --color-secondary: #7bdcb5;
     --color-white: rgb(238, 233, 233);
+    --color-black: rgb(16, 16, 16);
+
+    --color-overlay: #0505058d;
+
+
+
+    --title-font: "Roboto", sans-serif;
 }

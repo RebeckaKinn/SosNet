@@ -1,10 +1,12 @@
 /*reset*/
 header{
+    background-color: var(--color-white);
     position: sticky;
     top: 0;
     
     z-index: 20;
 
+    padding: 20px 5%;
 
     display: flex;
     flex-direction: row;
