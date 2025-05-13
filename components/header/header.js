@@ -18,8 +18,8 @@ export function header(){
  function logo(){
      return /*HTML*/`
     <div class="menu">
-        <div>
-            <img class="logo" src="img/placeholder_logo_2.png" alt="logo">
+        <div class="logo">
+            <img src="img/placeholder_logo_2.png" alt="logo">
         </div>
         <i class="main-color">En sosial inovasjons hub</i>
     </div>

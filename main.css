@@ -3,6 +3,7 @@
 @import url(./components/header/header.css);
 @import url(./components/footer/footer.css);
 @import url(frontPage.css);
+@import url(display.css);
 
 
 body{

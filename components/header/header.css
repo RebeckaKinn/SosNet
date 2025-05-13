@@ -1,4 +1,4 @@
-/*reset*/
+
 header{
     background-color: var(--color-white);
     position: sticky;
@@ -13,11 +13,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-ul, menu {
-    list-style-type: none !important;
-    padding: 0;
-    margin: 0;
-}
+
 
  .logo{
     width: auto;

@@ -15,3 +15,20 @@ body {
   padding: 0;
   scroll-behavior: smooth;
 }
+
+ul, menu {
+    list-style-type: none !important;
+    padding: 0;
+    margin: 0;
+}
+
+/*ta bort default logo fra watercss*/
+a[href^='mailto\:']::before,
+a[href^='tel\:']::before
+ {
+    content: '';
+}
+
+a{
+  color: var(--color-main);
+}
