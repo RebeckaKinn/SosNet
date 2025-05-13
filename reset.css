@@ -1,0 +1,34 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+ul, menu {
+    list-style-type: none !important;
+    padding: 0;
+    margin: 0;
+}
+
+/*ta bort default logo fra watercss*/
+a[href^='mailto\:']::before,
+a[href^='tel\:']::before
+ {
+    content: '';
+}
+
+a{
+  color: var(--color-main);
+}

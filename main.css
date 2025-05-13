@@ -1,24 +1,40 @@
-@import url(header.css);
+@import url(variables.css);
+@import url(reset.css);
+@import url(./components/header/header.css);
+@import url(./components/footer/footer.css);
+@import url(frontPage.css);
+@import url(display.css);
+
 
 body{
     max-width: 100%;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
 }
 main{
+  
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    max-width: 800px;
+   
+    
 }
 
-
-  .logo{
-    width: auto;
-    max-width: 150px;
-    height: 4rem;
-
-    img{
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
-    }
+.underline{
+  border-bottom: 1px solid var(--color-main); 
+  padding: 0 5px;
+  padding-bottom: 5px;
+  transition: 0.3s;
+  a{
+    transition: 0.3s;
   }
+}
+
+.underline:hover{
+  a{
+    font-size: large;
+    font-weight: 500;
+  }
+}
