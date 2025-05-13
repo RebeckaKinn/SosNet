@@ -1,6 +1,8 @@
-import {header} from "./components/header.js"
+import {header} from "./components/header/header.js"
+import {footer} from "./components/footer/footer.js"
 
 window.header = header;
+window.footer = footer;
 
 renderLandingPage()
 function renderLandingPage(){
@@ -10,7 +12,7 @@ function renderLandingPage(){
     <h1>hallo</h1>
     
     </main>
-    <footer></footer>
+    ${footer()}
     `;
 }
 

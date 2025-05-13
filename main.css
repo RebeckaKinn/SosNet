@@ -1,9 +1,22 @@
-@import url(header.css);
+@import url(variables.css);
+@import url(reset.css);
+@import url(./components/header/header.css);
+@import url(./components/footer/footer.css);
+
 
 body{
     max-width: 100%;
+
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: auto 1fr auto;
+    justify-items: stretch;
+    align-items: start;
+
 }
 main{
+    justify-self: center;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
