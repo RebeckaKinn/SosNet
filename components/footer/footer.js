@@ -30,16 +30,16 @@ export function footer(){
             </address>
 
             <ul class="flex column flex-gap-1rem align-items-center">
-                <li class="underline">
+                <li class="underline text-align-center">
                     <a class="footer-links" href="">Om SosNet</a>
                 </li>
-                <li class="underline">
+                <li class="underline text-align-center">
                     <a class="footer-links" href="">Kontakt</a>
                 </li>
-                <li class="underline">
+                <li class="underline text-align-center">
                     <a class="footer-links" href="">Terms and conditions</a>
                 </li>
-                <li class="underline">
+                <li class="underline text-align-center">
                     <a class="footer-links" href="">Privacy policy</a>
                 </li>
             </ul>
