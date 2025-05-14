@@ -9,7 +9,9 @@ export function footer(){
                 <img src="img/placeholder_logo_2.png" alt="logo">
             </div>
         </section>
-        <section class="justify-self-start width-100">
+
+        <section class="width-100 flex row justify-content-space-between">
+
             <address class="flex column flex-gap-1rem">
                 <ul class="flex column flex-gap-05rem">
                     <li>SosNet</li>
@@ -27,11 +29,28 @@ export function footer(){
                 </ul>
             </address>
 
+            <ul class="flex column flex-gap-1rem align-items-center">
+                <li class="underline">
+                    <a class="footer-links" href="">Om SosNet</a>
+                </li>
+                <li class="underline">
+                    <a class="footer-links" href="">Kontakt</a>
+                </li>
+                <li class="underline">
+                    <a class="footer-links" href="">Terms and conditions</a>
+                </li>
+                <li class="underline">
+                    <a class="footer-links" href="">Privacy policy</a>
+                </li>
+            </ul>
+
             
         </section>
-        <section class="justify-self-start footer-some-section">
+        <section class="justify-self-start align-self-center footer-some-section">
 
-        <div class="flex row flex-gap-2rem">
+        <p><b>Følg oss og hold deg oppdatert!</b></p>
+
+        <div class="flex row flex-gap-2rem ">
         
             <svg class="footer-some-icons" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0ZM26.5016 25.0542V38.1115H21.0991V25.0547H18.4V20.5551H21.0991V17.8536C21.0991 14.1828 22.6231 12 26.9532 12H30.5581V16.5001H28.3048C26.6192 16.5001 26.5077 17.1289 26.5077 18.3025L26.5016 20.5546H30.5836L30.1059 25.0542H26.5016Z" fill="white"/>
@@ -52,14 +71,7 @@ export function footer(){
         </section>
 
         <section class="justify-self-end">
-            <ul class="flex row flex-gap-2rem">
-                <li class="underline">
-                    <a class="footer-links" href="">Terms and conditions</a>
-                </li>
-                <li class="underline">
-                    <a class="footer-links" href="">Privacy policy</a>
-                </li>
-            </ul>
+            
         </section>
 
         <section>

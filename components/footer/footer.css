@@ -24,12 +24,15 @@ footer{
     font-size: 14px;
 }
 
-.footer-some-section{
-    
-}
+
 
 .footer-some-icons{
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-some-icons:hover{
+    scale: 1.2;
 }
 
 
