@@ -20,6 +20,7 @@ header{
     max-width: 150px;
     height: 4rem;
     transition: 0.3s;
+    cursor: pointer;
 
     img{
     height: 100%;
@@ -38,6 +39,7 @@ header{
 
     li{
         transition: 0.3s;
+        cursor: pointer;
     }
     li:hover{
         font-size: larger;

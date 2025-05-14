@@ -24,6 +24,15 @@ footer{
     font-size: 14px;
 }
 
+.footer-some-section{
+    
+}
+
+.footer-some-icons{
+    cursor: pointer;
+}
+
+
 
 @media screen and (max-width: 600px){
 footer{
