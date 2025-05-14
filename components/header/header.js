@@ -18,9 +18,9 @@ export function header(){
  function logo(){
      return /*HTML*/`
     <div class="menu">
-        <div class="logo">
+        <a href="index.html" class="logo">
             <img src="img/placeholder_logo_2.png" alt="logo">
-        </div>
+        </a>
         <i class="main-color">En sosial inovasjons hub</i>
     </div>
     `;
@@ -32,24 +32,21 @@ export function header(){
     <nav>
         <ul class="removeBullet menu flex-gap-1-5rem">
             <li>
-                <span>Om SosNet</span>
-                <ul class="removeBullet popUpSection column flex-gap-1rem">
-                    <li class="underline">test</li>
-                    <li class="underline">test en lang setning</li>
-                    <li class="underline">test</li>
-                </ul>
+                <a>Om SosNet</a>
+                
             </li>
 
-            <li><span>Aktuelt</span></li>
+            <li><a>Aktuelt</a></li>
             <li>
-                <span>Kunnskap og inspirasjon</span>
+                <a>Kunnskap og inspirasjon</a>
                 <ul class="removeBullet popUpSection column flex-gap-1rem">
-                    <li class="underline">Kunnskap fra omverdenen</li>
+                    <li class="underline">
+                    Kunnskap fra omverdenen</li>
                     <li class="underline">Inspirasjon fra praksis</li>
                 </ul>    
             </li>
-            <li><span>Medlemmer</span></li>
-            <li><span>Kontakt</span></li>
+            <li><a>Medlemmer</a></li>
+            <li><a>Kontakt</a></li>
             <li>
                 <input type="text" placeholder="Søk">
             </li>
