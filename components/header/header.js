@@ -32,21 +32,21 @@ export function header(){
     <nav>
         <ul class="removeBullet menu flex-gap-1-5rem">
             <li>
-                <a>Om SosNet</a>
+                <a href="pages/om_SosNet/index.html">Om SosNet</a>
                 
             </li>
 
-            <li><a>Aktuelt</a></li>
+            <li><a href="pages/aktuelt/index.html">Aktuelt</a></li>
             <li>
-                <a>Kunnskap og inspirasjon</a>
+                <a href="pages/kunnskap_og_inspirasjon/index.html">Kunnskap og inspirasjon</a>
                 <ul class="removeBullet popUpSection column flex-gap-1rem">
                     <li class="underline">
                     Kunnskap fra omverdenen</li>
                     <li class="underline">Inspirasjon fra praksis</li>
                 </ul>    
             </li>
-            <li><a>Medlemmer</a></li>
-            <li><a>Kontakt</a></li>
+            <li><a href="pages/medlemmer/index.html">Medlemmer</a></li>
+            <li><a href="pages/kontakt/index.html">Kontakt</a></li>
             <li>
                 <input type="text" placeholder="Søk">
             </li>
