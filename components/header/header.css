@@ -48,27 +48,31 @@ header{
         transition: 0.3s;
         cursor: pointer;
     }
-    li:hover{
-        a{
+    li:not(.underline):hover > a{
+        
             font-size: larger;
             font-weight: bold;
             text-decoration: none;
-        }
-        .popUpSection{
-            display: flex;
-        }
+       
+         
     }
+    li:not(.underline):hover{
+            .popUpSection {
+                display: flex;
+            }
+        }
 
 }
 
 .popUpSection{
-    display: none;
+    display: none; 
     position: absolute;
-    background-color: var(--color-dark);
-    color: var(--color-white);
-    padding: 40px 10px;
+    width: 25vh;
 
-    li:hover{
+    background-color: var(--color-white);
+    padding: 40px 10px;
+   
+    a:hover{
         color: var(--color-main);
     }
 }

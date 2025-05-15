@@ -4,8 +4,8 @@ import {footer} from "../../components/footer/footer.js"
 window.header = header;
 window.footer = footer;
 
-renderLandingPage()
-function renderLandingPage(){
+renderPage()
+function renderPage(){
     document.body.innerHTML = /*HTML*/`
     ${header()}
     <main role="main">

@@ -36,17 +36,28 @@ export function header(){
             </li>
             <li>
                 <a href="/pages/om_SosNet/index.html">Om SosNet</a> 
+                <ul class="removeBullet popUpSection column flex-gap-1rem">
+                    <li class="underline">
+                        <a href="/pages/om_SosNet/index.html">Om oss</a>
+                    </li>
+                    <li class="underline">
+                        <a href="/pages/kontakt/index.html">Kontakt</a>
+                    </li>
+                </ul>
             </li>
 
             <li><a href="/pages/aktuelt/index.html">Aktuelt</a></li>
             <li>
                 <a href="/pages/kunnskap_og_inspirasjon/index.html">Kunnskap og inspirasjon</a>
                 <ul class="removeBullet popUpSection column flex-gap-1rem">
-                    <li class="underline">Kunnskap fra omverdenen</li>
-                    <li class="underline">Inspirasjon fra praksis</li>
+                    <li class="underline">
+                        <a href="">Kunnskap fra omverdenen</a>
+                    </li>
+                    <li class="underline">
+                        <a href="">Inspirasjon fra praksis</a>
+                    </li>
                 </ul>    
             </li>
-            <li><a href="/pages/medlemmer/index.html">Medlemmer</a></li>
             <li><a href="/pages/kontakt/index.html">Kontakt</a></li>
             <li>
                 <input type="text" placeholder="Søk">
