@@ -6,7 +6,7 @@ export function footer(){
         <section class="justify-self-end flex row flex-gap-1rem align-items-center">
             <div class="footerTitle"><span class="main-color">Sos</span>Net</div>
             <div class="logo">
-                <img src="img/placeholder_logo_2.png" alt="logo">
+                <img src="/../img/placeholder_logo_2.png" alt="logo">
             </div>
         </section>
 

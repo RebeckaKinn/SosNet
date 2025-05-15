@@ -19,16 +19,18 @@ header{
     width: auto;
     max-width: 150px;
     height: 4rem;
-    transition: 0.3s;
-    cursor: pointer;
-
+    
     img{
     height: 100%;
     width: 100%;
     object-fit: fill;
     }
   }
-  .logo:hover{
+  .hover-scale{
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .hover-scale:hover{
     scale: 1.2;
   }
 .menu{
