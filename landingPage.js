@@ -20,7 +20,7 @@ function renderPage(){
             <div class="overlayText">
                 <h1><span class="main-color">Sos</span>Net</h1>
                 <h2>En <span class="main-color">sosial innovasjons</span> hub</h2>
-                <h3>for inspirasjon og kunnskap om sosial bærekraft og sosialt entreprenærskap.</h3>
+                <h3>for inspirasjon og kunnskap om sosial bærekraft og sosialt entreprenærskap i Vestfold og Telemark.</h3>
             </div>
         </section>
 

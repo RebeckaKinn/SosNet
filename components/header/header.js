@@ -41,7 +41,7 @@ export function header(){
                         <a href="/pages/om_SosNet/index.html">Om oss</a>
                     </li>
                     <li class="underline">
-                        <a href="/pages/kontakt/index.html">Kontakt</a>
+                        <a href="/pages/medlemmer/index.html">Medlemmer</a>
                     </li>
                 </ul>
             </li>
