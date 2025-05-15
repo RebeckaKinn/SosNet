@@ -11,7 +11,7 @@ export function header(){
 }
 
 
-
+//lage burgermeny uten "burger"-merkene. Et pluss-tegn?
 
 
 
