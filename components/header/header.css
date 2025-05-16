@@ -12,6 +12,7 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 
@@ -194,10 +195,15 @@ header{
             
                 a:hover{
                     color: var(--color-main);
-    }
+                }
             }
         }
 
+        li:not(.underline):last-of-type{
+            flex-grow: 1;
+           
+           
+        }
   }
 
   #menu #burger-menu:checked ~ ul.menu{

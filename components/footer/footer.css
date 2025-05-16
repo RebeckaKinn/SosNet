@@ -10,6 +10,7 @@ footer{
 
     justify-items: center;
     gap: 5%;
+    
 }
 
 
@@ -36,12 +37,39 @@ footer{
     scale: 1.2;
 }
 
+@media screen and (max-width: 1000px){
+    footer{
+        grid-template-columns: 1fr 2fr 1fr;
+    }
 
+    .footer-logo{
+        justify-self: center;
+        flex-direction: column-reverse;
+        
+    }
 
-@media screen and (max-width: 600px){
-footer{
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
+    .footer-some-section{
+        justify-self: center;
+
+        div{
+            gap: 0;
+            justify-content: space-evenly;
+        }
+    }
+
+    .footer-inner-section{
+        justify-content: space-evenly;
+    }
 }
+
+@media screen and (max-width: 800px){
+    footer{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 0;
+        section{
+            margin-bottom: 5%;
+        }
+    }
 }
 

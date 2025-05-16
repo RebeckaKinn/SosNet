@@ -3,14 +3,14 @@
 export function footer(){
     return /*HTML*/`
     <footer role="footer">
-        <section class="justify-self-end flex row flex-gap-1rem align-items-center">
+        <section class="justify-self-end flex row flex-gap-1rem align-items-center footer-logo">
             <div class="footerTitle"><span class="main-color">Sos</span>Net</div>
             <div class="logo">
                 <img src="/../img/placeholder_logo_2.png" alt="logo">
             </div>
         </section>
 
-        <section class="width-100 flex row justify-content-space-between">
+        <section class="width-100 flex row justify-content-space-between footer-inner-section">
 
             <address class="flex column flex-gap-1rem">
                 <ul class="flex column flex-gap-05rem">
