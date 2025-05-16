@@ -42,18 +42,23 @@ header{
     gap: 1.5rem;
     a{
         color: var(--color-black);
-        
     }
     li, li a{
         transition: 0.3s;
         cursor: pointer;
+        .arrow-indicator{
+            font-size: 20px;
+            transition: 0.5s ease-in-out;
+        }
     }
     li:not(.underline):hover > a{
         
             font-size: larger;
             font-weight: bold;
             text-decoration: none;
-       
+            .arrow-indicator{
+                transform: rotate(90deg);
+            }
          
     }
     li:not(.underline):hover{
@@ -63,6 +68,8 @@ header{
         }
 
 }
+
+
 
 .popUpSection{
     display: none; 
@@ -161,6 +168,7 @@ header{
     text-align: right;
     gap: 2rem;
     a{
+        font-size: var(--font-menu);
         color: var(--color-black);
         
     }
@@ -168,7 +176,8 @@ header{
     
     li:not(.underline){
             .popUpSection {
-                display: flex;
+                display: none; 
+
                 position: inherit;
                 width: auto;
 

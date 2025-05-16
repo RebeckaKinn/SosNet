@@ -44,26 +44,26 @@ export function header(){
                 <a href="/index.html">Hjem</a> 
             </li>
             <li>
-                <a href="/pages/om_SosNet/index.html">Om SosNet</a> 
+                <a><span class="arrow-indicator">&#129170;</span>Om SosNet</a> 
                 <ul class="removeBullet popUpSection column flex-gap-1rem">
                     <li class="underline">
-                        <a href="/pages/om_SosNet/index.html">Om oss</a>
+                        <a href="/pages/om_SosNet/om_oss/index.html">Om oss</a>
                     </li>
                     <li class="underline">
-                        <a href="/pages/medlemmer/index.html">Medlemmer</a>
+                        <a href="/pages/om_SosNet/medlemmer/index.html">Medlemmer</a>
                     </li>
                 </ul>
             </li>
 
             <li><a href="/pages/aktuelt/index.html">Aktuelt</a></li>
             <li>
-                <a href="/pages/kunnskap_og_inspirasjon/index.html">Kunnskap og inspirasjon</a>
+                <a><span class="arrow-indicator">&#129170;</span>Kunnskap og inspirasjon</a>
                 <ul class="removeBullet popUpSection column flex-gap-1rem">
                     <li class="underline">
-                        <a href="">Kunnskap fra omverdenen</a>
+                        <a href="/pages/kunnskap_og_inspirasjon/kunnskap_fra_omverdenen/index.html">Kunnskap fra omverdenen</a>
                     </li>
                     <li class="underline">
-                        <a href="">Inspirasjon fra praksis</a>
+                        <a href="/pages/kunnskap_og_inspirasjon/inspirasjon_fra_praksis/index.html">Inspirasjon fra praksis</a>
                     </li>
                 </ul>    
             </li>
