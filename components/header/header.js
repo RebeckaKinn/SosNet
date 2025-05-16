@@ -29,8 +29,16 @@ export function header(){
 
  function mainNav(){
     return /*HTML*/`
-    <nav>
-        <ul class="removeBullet menu flex-gap-1-5rem">
+    <nav id="menu" aria-label="Primary navigation">
+
+        <input id="burger-menu" type="checkbox" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="menu-list"/>
+        <label for="burger-menu" class="hidden-on-desktop" aria-label="Open menu">
+            <span></span>
+            <span></span>
+        </label>
+
+
+        <ul class="removeBullet menu">
             <li>
                 <a href="/index.html">Hjem</a> 
             </li>
