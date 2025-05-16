@@ -21,7 +21,7 @@ export function header(){
         <a href="/index.html" class="logo hover-scale">
             <img src="/../img/placeholder_logo_2.png" alt="logo ">
         </a>
-        <i class="main-color">En sosial innovasjons hub</i>
+        <i class="main-color">SosNet - En sosial innovasjons hub</i>
     </div>
     `;
 }
