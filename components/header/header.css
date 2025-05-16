@@ -46,19 +46,14 @@ header{
     li, li a{
         transition: 0.3s;
         cursor: pointer;
-        .arrow-indicator{
-            font-size: 20px;
-            transition: 0.5s ease-in-out;
-        }
+      
     }
     li:not(.underline):hover > a{
         
             font-size: larger;
             font-weight: bold;
             text-decoration: none;
-            .arrow-indicator{
-                transform: rotate(90deg);
-            }
+            
          
     }
     li:not(.underline):hover{
@@ -66,10 +61,23 @@ header{
                 display: flex;
             }
         }
+    li:not(.underline):hover a .arrow-indicator {
+        transform: rotate(90deg);
+    }
 
 }
 
+.arrow-indicator {
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    margin-right: 5px;
+    text-align: center;
 
+    
+    transform-origin: center left;
+
+    
+    }
 
 .popUpSection{
     display: none; 
@@ -140,7 +148,7 @@ header{
 
 
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1180px){
     .wrapper-menu{
         display: flex;
         z-index: 25;
@@ -150,7 +158,7 @@ header{
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 100%;
+    width: 40%;
     height: 90%;
     opacity: 0;
     transform: translateX(100%);
@@ -209,4 +217,14 @@ header{
 
    
 
+}
+@media screen and (max-width: 900px){
+    ul.menu{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 600px){
+    ul.menu{
+        width: 100%;
+    }
 }

@@ -29,6 +29,10 @@
     align-items: center;
 }
 
+.align-items-baseline{
+    align-items: baseline;
+}
+
 
 .align-self-end{
     align-self: flex-end;
