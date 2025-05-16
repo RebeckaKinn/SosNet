@@ -32,9 +32,10 @@ export function header(){
     <nav id="menu" aria-label="Primary navigation">
 
         <input id="burger-menu" type="checkbox" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="menu-list"/>
-        <label for="burger-menu" class="hidden-on-desktop" aria-label="Open menu">
-            <span></span>
-            <span></span>
+        <label for="burger-menu" class="wrapper-menu" aria-label="Open menu">
+            <span class="line-menu half start"></span>
+            <span class="line-menu"></span>
+            <span class="line-menu half end"></span>
         </label>
 
 
