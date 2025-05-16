@@ -11,9 +11,6 @@ export function header(){
 }
 
 
-//lage burgermeny uten "burger"-merkene. Et pluss-tegn?
-
-
 
  function logo(){
      return /*HTML*/`
@@ -26,6 +23,8 @@ export function header(){
     `;
 }
 
+//bytte ut pilene med noe som fungerer på mobil også. Lage noen egne ? 
+//endre til at den lytter til klikk på mobil og ikke hover på popups. 
 
  function mainNav(){
     return /*HTML*/`
