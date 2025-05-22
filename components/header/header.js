@@ -10,8 +10,6 @@ export function header(){
     `;
 }
 
-//<i class="main-color">En sosial innovasjons hub</i>
-
  function logo() {
     const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
     const logoSrc = isSmallScreen ? "/../img/logo/SosNet-logoSymbol-cropped.svg" : "/../img/logo/SosNet-logo.svg";

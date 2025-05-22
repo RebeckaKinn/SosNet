@@ -2,8 +2,11 @@
 
 :root{
     --color-main: #00c073;
-    --color-secondary: #7bdcb5;
-    --color-dark: #341d1d;
+    --color-main-2: #ea00a6;
+    --color-main-3: #ffb600;
+
+    --color-secondary: #6450a2;
+    --color-secondary-2: #c4b7da;
     --color-white: rgb(238, 233, 233);
     --color-black: rgb(16, 16, 16);
 
@@ -17,13 +20,3 @@
     --font-menu: 20px;
 }
 
-/*
-Fra logo
-#00c073 (grønn)
-#ea00a6 (rosa)
-#ffb600 (gul)
-
-Fra figurene
-#6450a2 (mørk lilla)
-#c4b7da (light purple)
-*/
