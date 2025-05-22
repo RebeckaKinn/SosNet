@@ -10,16 +10,18 @@ export function header(){
     `;
 }
 
+//<i class="main-color">En sosial innovasjons hub</i>
 
+ function logo() {
+    const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
+    const logoSrc = isSmallScreen ? "/../img/logo/SosNet-logoSymbol-cropped.svg" : "/../img/logo/SosNet-logo.svg";
 
- function logo(){
-     return /*HTML*/`
-    <div class="menu">
-        <a href="/index.html" class="logo hover-scale">
-            <img src="/../img/logo/SosNet-logoSymbol-cropped.svg" alt="logo ">
-        </a>
-        <i class="main-color">SosNet - En sosial innovasjons hub</i>
-    </div>
+    return /*HTML*/`
+        <div class="menu">
+            <a href="/index.html" class="logo hover-scale">
+                <img src="${logoSrc}" alt="logo">
+            </a> 
+        </div>
     `;
 }
 

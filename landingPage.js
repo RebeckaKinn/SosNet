@@ -18,7 +18,12 @@ function renderPage(){
           
             <div class="overlay"></div>
             <div class="overlayText">
-                <h1><span class="main-color">Sos</span>Net</h1>
+ 
+                    <div class="logo">
+                        <img src="/../img/logo/SosNet-logo.svg" alt="logo">
+                    </div>
+                   
+               
                 <h2>En <span class="main-color">sosial innovasjons</span> hub</h2>
                 <h3>for inspirasjon og kunnskap om sosial bærekraft og sosialt entreprenærskap i Vestfold og Telemark.</h3>
             </div>
@@ -30,7 +35,7 @@ function renderPage(){
     `;
 }
 
-
+// <h1><span class="main-color">Sos</span>Net</h1>
 /*
 
   <iframe class="landingPageVideo" aria-live="polite"
