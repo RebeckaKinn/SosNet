@@ -16,7 +16,7 @@ export function header(){
      return /*HTML*/`
     <div class="menu">
         <a href="/index.html" class="logo hover-scale">
-            <img src="/../img/logo/SosNet-logoSymbol.svg" alt="logo ">
+            <img src="/../img/logo/SosNet-logoSymbol-cropped.svg" alt="logo ">
         </a>
         <i class="main-color">SosNet - En sosial innovasjons hub</i>
     </div>
