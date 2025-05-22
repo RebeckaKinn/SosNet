@@ -1,0 +1,24 @@
+<svg viewBox="342 348 316 370" version="1.1" xmlns="http://www.w3.org/2000/svg" id="Layer_1" style="max-height: 500px" width="316" height="370">
+  
+  <defs>
+    <style>
+      .st0 {
+        fill: #00c073;
+      }
+
+      .st1 {
+        fill: #ffb600;
+      }
+
+      .st2 {
+        fill: #ea00a6;
+      }
+    </style>
+  </defs>
+  <rect height="1000" width="1000" x="2040"/>
+  <g>
+    <polygon points="537.3 534.3 460.8 578.1 458.3 708.3 514.7 676 516.4 586.5 594.4 630.4 650.8 598.1 537.3 534.3" class="st1"/>
+    <polygon points="460.7 578.1 461.1 489.9 349.5 422.7 349.3 487.7 426 533.9 349 579.5 348.7 644.5 460.7 578.1" class="st2"/>
+    <polygon points="461.1 489.9 537.3 534.3 651.3 471.3 595.1 438.6 516.8 481.9 515.7 392.4 459.6 359.7 461.1 489.9" class="st0"/>
+  </g>
+</svg>
