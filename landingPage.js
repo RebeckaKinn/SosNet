@@ -20,7 +20,7 @@ function renderPage(){
             <div class="overlayText">
  
                     <div class="logo">
-                        <img src="/../img/logo/SosNet-logo.svg" alt="logo">
+                        <img src="./../img/logo/SosNet-logo.svg" alt="logo">
                     </div>
                    
                
