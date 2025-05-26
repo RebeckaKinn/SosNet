@@ -19,7 +19,10 @@
    color: var(--color-white);
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-    
+   margin-bottom: 25px;
+   h1{
+    color: var(--color-white);
+   }
 }
 
 .banner .banner-img{
@@ -27,9 +30,11 @@
     max-height: 400px;
     width: 100%;
     position: relative;
-    -webkit-mask-image: url(img/logo/SosNet-logoSymbol-cropped.svg);
-  mask-image: url(img/logo/SosNet-logoSymbol-cropped.svg);
-  mask-repeat: no-repeat;
+    -webkit-mask-image: url(img/logo_mask.svg);
+    mask-image: url(img/logo_mask.svg);
+    mask-repeat: no-repeat;
+    mask-size: cover;
+    mask-position: right;
     img{
         height: 100%;
         width: 100%;
@@ -39,8 +44,26 @@
 }
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 900px){
     .grid-layout{
         grid-template-columns: 1fr;
     }
+    .banner{
+        grid-template-columns: 1.5fr 1fr;
+        article{
+            padding: 5% 0;
+        }
+    }
+    .banner .banner-img{
+        mask-size: contain;
+    }
+}
+@media screen and (max-width: 600px){
+
+    .banner{
+        /* grid-template-columns: 1fr;
+        grid-template-rows: auto; */
+
+    }
+
 }
