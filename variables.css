@@ -1,9 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: "Avenir";
+    src: url("./fonts/avenir/AvenirLTStd-Roman.otf");
+}
+@font-face {
+    font-family: "Avenir-light";
+    src: url("./fonts/avenir/AvenirLTStd-Light.otf");
+}
 
 :root{
     --color-main: #00c073;
     --color-main-2: #ea00a6;
     --color-main-3: #ffb600;
+
+    --color-background: #004a39;
 
     --color-secondary: #6450a2;
     --color-secondary-2: #c4b7da;
@@ -15,8 +24,14 @@
 
 
 
-    --title-font: "Roboto", sans-serif;
+    --title-font: "Avenir";
+    --font-thin: "Avenir-light";
 
     --font-menu: 20px;
 }
 
+/*
+    Logo/symbol: #EA00A6, #00c073, # ffb600
+    Grønn bakgrunn: #004a39
+    Font: Avenir
+*/

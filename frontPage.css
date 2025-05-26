@@ -53,8 +53,9 @@
         font-size: 64px;
     }
     h3{
+        font-family: var(--font-thin);
         font-size: 25px;
-        font-style: italic;
+        
     }
 }
 
