@@ -34,6 +34,8 @@
     --font-h2: calc(1.5rem + 1vw);
     --font-h3: calc(1.2rem + 0.5vw);
     --font-p: 16px;
+
+    --font-responsive-p: calc(1rem + 0.5vw);
     --font-menu: 20px;
 }
 

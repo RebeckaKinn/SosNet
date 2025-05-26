@@ -9,6 +9,17 @@ function renderPage(){
     document.body.innerHTML = /*HTML*/`
     ${header()}
     <main role="main">
+
+        <section class="background-color-green banner">
+            <div>
+                text
+            </div>
+            <div class="banner-img">
+                <img src="/img/placeholders/ai_people_2.jpg" alt="">
+            </div>
+            
+        </section>
+
         <section class="main-margin grid-layout">
             <div class="banner-img">
                 <img src="/../../img/components/SOSNETfigurer.png" alt="">

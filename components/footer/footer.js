@@ -9,7 +9,7 @@ export function footer(){
             </div>
         </section>
 
-        <section class="width-100 flex row justify-content-space-between footer-inner-section">
+        <section class="width-100 flex row justify-content-space-between footer-inner-section flex-gap-1rem">
 
             <address class="flex column flex-gap-1rem">
                 <ul class="flex column flex-gap-05rem">
