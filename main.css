@@ -17,6 +17,18 @@ body{
 h1,h2,h3{
   font-family: var(--title-font);
 }
+h1{
+  font-size: var(--font-h1);
+}
+h2{
+  font-size: var(--font-h2);
+}
+h3{
+  font-size: var(--font-h3);
+}
+p, a{
+  font-size: var(--font-p);
+}
 
 main{
     display: flex;

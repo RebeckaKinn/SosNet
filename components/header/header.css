@@ -17,8 +17,15 @@ header{
 }
 
 .searchbar{
-    /* border: 1px solid var(--color-background); */
+    border-bottom: 1px solid var(--color-background); 
+    input{
+        transition: 0.3s;
+    }
+}
 
+.searchbar input:focus{
+    scale: 1.2;
+    box-shadow: none;
 }
 
  .logo{
@@ -191,7 +198,12 @@ header{
         color: var(--color-black);
         
     }
-    
+    .searchbar{
+    border-bottom: none; 
+        input{
+            outline: 1px solid var(--color-background);
+        }  
+    }
     
     li:not(.underline){
             .popUpSection {
@@ -209,11 +221,11 @@ header{
             }
         }
 
-        li:not(.underline):last-of-type{
+        /* li:not(.underline):last-of-type{
             flex-grow: 1;
            
            
-        }
+        } */
   }
 
   #menu #burger-menu:checked ~ ul.menu{
