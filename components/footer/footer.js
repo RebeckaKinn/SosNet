@@ -13,17 +13,21 @@ export function footer(){
 
             <address class="flex column flex-gap-1rem">
                 <ul class="flex column flex-gap-05rem">
-                    <li>SosNet</li>
-                    <li>Åmundsgate 33,</li>
-                    <li>3255 Larvik</li>
+                    <li>Universitetet I Sørøst-Norge</li>
+                    <li>Kjølnes ring 56</li>
+                    <li>3918 Porsgrunn</li>
                 </ul>
 
                 <ul class="flex column flex-gap-05rem">
                     <li>
-                        <a href="mailto:info@example.com">info@example.com</a>
+                       <p>Lars U. Kobro</p>
+                       <i>SosNet koordinator og seniorforsker</i>
                     </li>
                     <li>
-                        <a href="tel:+4712345678">+47 123 45 678</a>
+                        <a href="mailto:kobro@usn.no">kobro@usn.no</a>
+                    </li>
+                    <li>
+                        <a href="tel:+4790942561">+47 909 42 561</a>
                     </li>
                 </ul>
             </address>
