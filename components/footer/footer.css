@@ -14,12 +14,6 @@ footer{
 }
 
 
-.footerTitle{
-    font-weight: 800;
-    font-size: 40px;
-    font-family: var(--title-font);
-}
-
 
 .footer-links{
     color: var(--color-gray);
@@ -37,6 +31,10 @@ footer{
     scale: 1.2;
 }
 
+.footer-logo .logo{
+    max-width: 200px;
+}
+
 @media screen and (max-width: 1000px){
     footer{
         grid-template-columns: 1fr 2fr 1fr;
@@ -44,8 +42,7 @@ footer{
 
     .footer-logo{
         justify-self: center;
-        flex-direction: column-reverse;
-        
+        /* flex-direction: column-reverse; */  
     }
 
     .footer-some-section{
@@ -70,6 +67,10 @@ footer{
         section{
             margin-bottom: 5%;
         }
+    }
+
+    .footer-logo .logo{
+        max-width: 100%;
     }
 }
 

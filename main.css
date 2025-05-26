@@ -4,6 +4,7 @@
 @import url(display.css);
 @import url(./components/footer/footer.css);
 @import url(./components/header/header.css);
+@import url(page-layout.css);
 
 
 body{
@@ -44,6 +45,10 @@ main{
   margin: 0 20%;
 }
 
+
+.bottom-shadow {
+    box-shadow: 0px 8px 10px -5px var(--color-shadow);
+  }
 @media screen and (max-width: 1500px){
     .main-margin{
       margin: 0 10%;

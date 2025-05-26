@@ -16,11 +16,14 @@
 
     --color-secondary: #6450a2;
     --color-secondary-2: #c4b7da;
-    --color-white: rgb(238, 233, 233);
+    --color-white: #ffffff;
     --color-black: rgb(16, 16, 16);
-
+    
+    --color-white-transparent: rgba(238, 233, 233, 0.637);
     --color-overlay: #0505058d;
     --color-gray: #909291;
+
+    --color-shadow: rgba(0, 0, 0, 0.221);
 
 
 

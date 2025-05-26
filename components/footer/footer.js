@@ -5,7 +5,7 @@ export function footer(){
     <footer role="footer">
         <section class="justify-self-end flex row flex-gap-1rem align-items-center footer-logo">
             <div class="logo">
-                <img src="/../img/logo/SosNet-logo.svg" alt="logo">
+                <img src="/../../img/logo/SosNet-logo.svg" alt="logo">
             </div>
         </section>
 

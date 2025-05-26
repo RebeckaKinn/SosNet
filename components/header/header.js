@@ -1,7 +1,7 @@
 
 export function header(){
     return /*HTML*/`
-    <header role="header">
+    <header role="header" class="bottom-shadow">
         ${logo()}
         ${mainNav()}
     
@@ -67,7 +67,7 @@ export function header(){
                 </ul>    
             </li>
             <li><a href="/pages/kontakt/index.html">Kontakt</a></li>
-            <li>
+            <li class="searchbar">
                 <input type="text" placeholder="Søk">
             </li>
         </ul>
