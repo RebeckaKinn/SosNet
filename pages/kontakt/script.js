@@ -10,6 +10,8 @@ function renderPage(){
     document.body.innerHTML = /*HTML*/`
     ${header()}
     <main role="main">
+    
+    
         <div class="gradient-line top gradient-background"></div>
     <section class="grid-layout">
         <section class="contact-img-section">
@@ -51,7 +53,7 @@ function renderPage(){
             </address>
         </section>
         <section>
-            <div>${mapIframe}</div>
+            <div class="outline-2">${mapIframe}</div>
         </section>
     </section>
 
