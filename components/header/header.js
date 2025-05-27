@@ -54,7 +54,7 @@ export function header(){
                 </ul>
             </li>
 
-            <li><a href="/pages/aktuelt/index.html">Aktuelt</a></li>
+            <li><a href="/pages/aktuelt/index.html">Aktuelt og arrangementer</a></li>
             <li>
                 <a><span class="arrow-indicator">&#129170;</span>Kunnskap og inspirasjon</a>
                 <ul class="removeBullet popUpSection column flex-gap-1rem">
