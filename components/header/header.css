@@ -210,6 +210,23 @@ header{
             outline: 1px solid var(--color-background);
         }  
     }
+
+    .svg-mask{
+        height: 100%;
+        width: 100%;
+        max-height: 150px;
+        background-color: var(--color-background);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        -webkit-mask-image: url(../../img/logo_mask_corner.svg);
+        mask-image: url(../../img/logo_mask_corner.svg);
+        mask-repeat: no-repeat;
+        mask-size: contain;
+        mask-position: left;
+   
+ 
+    }
     
     li:not(.underline){
             .popUpSection {
@@ -256,9 +273,16 @@ header{
     ul.menu{
         width: 60%;
     }
+
+   
 }
 @media screen and (max-width: 600px){
     ul.menu{
         width: 100%;
+    }
+     .svg-mask{
+
+        max-height: 150px;
+
     }
 }

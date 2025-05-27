@@ -71,6 +71,7 @@ export function header(){
             <li><a href="/pages/kontakt/index.html">Kontakt</a></li>
             <li class="searchbar">
                 <input type="text" placeholder="Søk">
+                <div class="svg-mask"></div>
             </li>
         </ul>
     </nav>
