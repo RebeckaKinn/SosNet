@@ -13,9 +13,9 @@ function renderPage(){
         <div class="gradient-line top gradient-background"></div>
     <section class="grid-layout">
         <section class="contact-img-section">
-            <div class="img-container">
+            <div class="img-container bottom-shadow outline">
 
-                <img src="/img/placeholders/default_img.jpg" alt="">
+                <img src="/img/placeholders/ai_people.webp" alt="">
             </div>
            
         </section>
