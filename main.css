@@ -42,6 +42,7 @@ button, button a{
 main{
     display: flex;
     flex-direction: column;  
+    position: relative;
 }
 
 .underline{
