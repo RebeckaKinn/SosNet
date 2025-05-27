@@ -11,8 +11,7 @@ function renderPage(){
     <main role="main">
         <section class="landingPageVideo background-color-green" aria-live="polite">
             <video class="frontPageVideo" playsinline autoplay muted loop>
-                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-                <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video">
+                <source src="/video/placeholder/buissness_talking.mp4" type="video/mp4">
             </video>
 
           
