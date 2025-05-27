@@ -26,7 +26,7 @@ function renderPage(){
             <div class="banner-img">
                 <img src="/img/placeholders/ai_people_2.jpg" alt="">
             </div>
-            
+            <div class="gradient-line gradient-background"></div>
         </section>
 
         <section class="main-margin grid-layout">
