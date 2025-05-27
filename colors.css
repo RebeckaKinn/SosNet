@@ -1,6 +1,9 @@
 .background-color-green{
     background-color: var(--color-background) !important;
 }
+.background-color-green{
+    background: linear-gradient(45deg, var(--color-background), var(--color-black));
+}
 .main-color{
     color: var(--color-main) !important;
 }

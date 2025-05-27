@@ -49,19 +49,20 @@
     .banner{
         grid-template-columns: 1.5fr 1fr;
         article{
-            padding: 5% 0;
+            padding: 10% 0;
         }
     }
     .banner .banner-img{
         mask-size: contain;
     }
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
 
     .banner{
-        /* grid-template-columns: 1fr;
-        grid-template-rows: auto; */
-
+        grid-template-columns: 1fr;
+    }
+    .banner .banner-img{
+        display: none;
     }
 
 }
