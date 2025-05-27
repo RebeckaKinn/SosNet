@@ -5,6 +5,7 @@
 @import url(./components/footer/footer.css);
 @import url(./components/header/header.css);
 @import url(page-layout.css);
+@import url(colors.css);
 
 
 body{

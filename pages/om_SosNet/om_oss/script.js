@@ -12,7 +12,7 @@ function renderPage(){
 
         <section class="background-color-green banner bottom-shadow">
             <article class="main-margin flex column justify-content-center">
-                <h1>Om SosNet</h1>
+                <h1 class="main-color-3">Om SosNet</h1>
                 <p>SosNet er et regionalt nettverk med aktører fra ulike sektorer som, gjennom sin ulikhet, vil  bidra med å øke sosial bærekraft i næringslivet, i offentlige tjenester og i sivilsamfunnet i Vestfold og Telemark.</p>
             </article>
             <div class="banner-img">

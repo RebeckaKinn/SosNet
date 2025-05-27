@@ -1,0 +1,27 @@
+.background-color-green{
+    background-color: var(--color-background) !important;
+}
+.main-color{
+    color: var(--color-main) !important;
+}
+svg.main-color{
+    path{
+        fill: var(--color-main) !important;
+    }
+}
+.main-color-2{
+    color: var(--color-main-2) !important;
+}
+svg.main-color-2{
+    path{
+        fill: var(--color-main-2) !important;
+    }
+}
+.main-color-3{
+    color: var(--color-main-3) !important;
+}
+svg.main-color-3{
+    path{
+        fill: var(--color-main-3) !important;
+    }
+}
