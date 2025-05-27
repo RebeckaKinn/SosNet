@@ -44,9 +44,7 @@ export function header(){
             </li>
             <li>
                 <a>
-                    <span class="arrow-indicator">
-                    <img src="/img/arrow.svg" alt="">
-                    </span>
+                    <span class="arrow-indicator">${arrowSvg()}</span>
                     Om SosNet</a> 
                 <ul class="removeBullet popUpSection column flex-gap-1rem">
                     <li class="underline">
@@ -60,7 +58,7 @@ export function header(){
 
             <li><a href="/pages/aktuelt/index.html">Aktuelt og arrangementer</a></li>
             <li>
-                <a><span class="arrow-indicator">&#129170;</span>Kunnskap og inspirasjon</a>
+                <a><span class="arrow-indicator">${arrowSvg()}</span>Kunnskap og inspirasjon</a>
                 <ul class="removeBullet popUpSection column flex-gap-1rem">
                     <li class="underline">
                         <a href="/pages/kunnskap_og_inspirasjon/kunnskap_fra_omverdenen/index.html">Kunnskap fra omverdenen</a>
@@ -77,5 +75,15 @@ export function header(){
         </ul>
     </nav>
     
+    `;
+}
+
+
+function arrowSvg(){
+    return /*HTML*/`
+      <svg width="114" height="223" viewBox="0 0 114 223" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M112.7 156.1L113.1 67.8999L1.49994 0.699951L1.29993 65.7L77.9999 111.9L0.999939 157.5L0.699951 222.5L112.7 156.1Z" fill="#EA00A6"/>
+        </svg>
+
     `;
 }

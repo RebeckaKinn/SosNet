@@ -79,7 +79,7 @@ header{
     }
 
 }
-
+/* 
 .arrow-indicator {
     display: inline-block;
     transition: all 0.2s ease-in-out;
@@ -90,7 +90,26 @@ header{
     transform-origin: center left;
 
     
-    }
+    } */
+
+    .arrow-indicator {
+    display: inline-flex; /* better alignment */
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease-in-out;
+    margin-right: 5px;
+    transform-origin: center center; /* ensures rotation doesn't shift it */
+
+    /* Optional: set a fixed size to avoid layout shifts */
+    width: 15px;
+    height: 15px;
+}
+
+.arrow-indicator svg {
+    width: 100%;
+    height: 100%;
+    display: block; /* prevents whitespace below SVG */
+}
 
 .popUpSection{
     display: none; 
