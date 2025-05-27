@@ -10,11 +10,19 @@ function renderPage(){
     ${header()}
     <main role="main">
 
-        <section class="background-color-green banner bottom-shadow">
-            <article class="main-margin flex column justify-content-center">
+        <section class="background-color-green-linear banner bottom-shadow">
+            <article class="main-margin flex column justify-content-center flex-gap-1rem">
                 <h1 class="main-color-3">Om SosNet</h1>
                 <p>SosNet er et regionalt nettverk med aktører fra ulike sektorer som, gjennom sin ulikhet, vil  bidra med å øke sosial bærekraft i næringslivet, i offentlige tjenester og i sivilsamfunnet i Vestfold og Telemark.</p>
-            </article>
+                <div>
+                    <button class="b">
+                        <a class="" href="">Møt våre medlemmer</a>
+                    </button>
+                     <button class="">
+                        <a href="">Kontakt oss</a>
+                    </button>
+                </div>
+                </article>
             <div class="banner-img">
                 <img src="/img/placeholders/ai_people_2.jpg" alt="">
             </div>

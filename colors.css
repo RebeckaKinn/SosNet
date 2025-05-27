@@ -1,7 +1,10 @@
 .background-color-green{
     background-color: var(--color-background) !important;
 }
-.background-color-green{
+.background-color-main-color-3{
+    background-color: var(--color-main-3) !important;
+}
+.background-color-green-linear{
     background: linear-gradient(45deg, var(--color-background), var(--color-black));
 }
 .main-color{
@@ -28,3 +31,10 @@ svg.main-color-3{
         fill: var(--color-main-3) !important;
     }
 }
+
+.main-color-4{
+    color: var(--color-background) !important;
+}
+
+
+

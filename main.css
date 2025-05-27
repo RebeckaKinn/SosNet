@@ -1,5 +1,6 @@
 @import url(variables.css);
 @import url(reset.css);
+@import url(elements.css);
 @import url(frontPage.css);
 @import url(display.css);
 @import url(./components/footer/footer.css);
@@ -30,6 +31,9 @@ h3{
 }
 p, a{
   font-size: var(--font-p);
+}
+button, button a{
+  font-size: var(--font-menu);
 }
 .font-responsive{
   font-size: var(--font-responsive-p);
