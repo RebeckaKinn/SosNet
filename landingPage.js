@@ -9,7 +9,7 @@ function renderPage(){
     document.body.innerHTML = /*HTML*/`
     ${header()}
     <main role="main">
-        <section class="landingPageVideo" aria-live="polite">
+        <section class="landingPageVideo background-color-green" aria-live="polite">
             <video class="frontPageVideo" playsinline autoplay muted loop>
                 <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                 <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video">
@@ -25,7 +25,7 @@ function renderPage(){
                    
                
                 <h1>En <span class="main-color">sosial innovasjons</span> hub</h1>
-                <h2 class="font-responsive">for inspirasjon og kunnskap om sosial bærekraft og sosialt entreprenærskap i Vestfold og Telemark.</h2>
+                <h2 class="font-responsive main-color-3">for inspirasjon og kunnskap om sosial bærekraft og sosialt entreprenærskap i Vestfold og Telemark.</h2>
             </div>
         </section>
 
