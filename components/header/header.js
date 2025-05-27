@@ -43,7 +43,11 @@ export function header(){
                 <a href="/index.html">Hjem</a> 
             </li>
             <li>
-                <a><span class="arrow-indicator">&#129170;</span>Om SosNet</a> 
+                <a>
+                    <span class="arrow-indicator">
+                    <img src="/img/arrow.svg" alt="">
+                    </span>
+                    Om SosNet</a> 
                 <ul class="removeBullet popUpSection column flex-gap-1rem">
                     <li class="underline">
                         <a href="/pages/om_SosNet/om_oss/index.html">Om oss</a>
