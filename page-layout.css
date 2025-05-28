@@ -55,8 +55,8 @@
     height: 100%;
     width: 100%;
     max-height: 300px;
-    -webkit-mask-image: url(img/components/SOSNETpuslespill.png);
-    mask-image: url(img/components/SOSNETpuslespill.png);
+    -webkit-mask-image: url(img/components/brikke.png);
+    mask-image: url(img/components/brikke.png);
     mask-repeat: no-repeat;
     mask-size: contain;
     mask-position: center;
@@ -119,6 +119,14 @@
 .text-align-left{
     text-align: left;
 }
+
+.map{
+ 
+    border: 2px solid var(--color-main);
+   
+}
+
+
 @media screen and (max-width: 900px){
     .grid-layout{
         grid-template-columns: 1fr;

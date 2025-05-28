@@ -9,7 +9,7 @@ function renderPage(){
     const mapIframe = embedMapByAddress("Kjølnes ring 56, 3918 Porsgrunn, Norway")
     document.body.innerHTML = /*HTML*/`
     ${header()}
-    <main role="main">
+    <main role="main" class="flex-gap-2rem">
        
 
 
@@ -27,14 +27,17 @@ function renderPage(){
              <div class="gradient-line gradient-background"></div>
         </section>
 
-        <section class="grid-layout">
-            <section class="main-margin">
-                <h2>Ta kontakt</h2>
-                <div class="grid-layout-x2fr">
+        <section class="grid-layout main-margin">
+            <section class="text-align-right">
+            <div class="grid-layout-x2fr">
+                <div>
+                    <h2>Ta kontakt</h2>
                 
                     <div class="profile-img-mask">
                         <img src="/img/placeholders/man.png" alt="">
                     </div>
+                </div>
+                
                     <address class="flex column flex-gap-1rem">
                         <ul class="flex column flex-gap-05rem">
                             <li>
@@ -66,7 +69,7 @@ function renderPage(){
             </address>
         </section>
         </section>
-        <section>
+        <section class="map">
             <div class="">${mapIframe}</div>
         </section>
 
