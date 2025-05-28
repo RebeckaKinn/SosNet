@@ -9,7 +9,14 @@ footer{
     grid-template-columns: repeat(3, 1fr);
 
     justify-items: center;
-    gap: 5%;
+    
+    section{
+        padding: 0 5%;
+    }
+
+    p, a, li{
+        font-size: var(--font-footer);
+    }
     
 }
 
