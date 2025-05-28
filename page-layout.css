@@ -51,23 +51,35 @@
     }
 }
 
-.profile-img-mask{
-    height: 100%;
+.profile-img-mask {
     width: 100%;
     max-height: 300px;
+    aspect-ratio: 1 / 1; /* Optional, or match mask's aspect ratio */
     -webkit-mask-image: url(img/components/brikke.png);
     mask-image: url(img/components/brikke.png);
     mask-repeat: no-repeat;
-    mask-size: contain;
+    mask-size: contain; /* ⬅️ Maintain aspect ratio */
     mask-position: center;
-    img{
-        
-        height: 100%;
-        width: 100%;
-        object-fit:cover;
-        
-    }
+    overflow: hidden;
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
 }
+
+
+
+
+.profile-img-mask img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.grid-layout-x2fr {
+    align-items: start;
+}
+
 
 .gradient-line{
     content: "";

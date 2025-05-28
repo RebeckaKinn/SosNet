@@ -28,9 +28,9 @@ function renderPage(){
         </section>
 
         <section class="grid-layout main-margin">
-            <section class="text-align-right">
-            <div class="grid-layout-x2fr">
-                <div>
+            <section class="grid-layout-x2fr">
+
+                <div class="flex column">
                     <h2>Ta kontakt</h2>
                 
                     <div class="profile-img-mask">
@@ -38,7 +38,7 @@ function renderPage(){
                     </div>
                 </div>
                 
-                    <address class="flex column flex-gap-1rem">
+                    <address class="flex column flex-gap-1rem text-align-right">
                         <ul class="flex column flex-gap-05rem">
                             <li>
                             <h3>Lars U. Kobro</h3>
@@ -52,10 +52,10 @@ function renderPage(){
                             </li>
                         </ul>
                     </address>
-                </div>
+        
             </section>
 
-        <section class="main-margin">
+        <section class="">
             <h2>Finn oss</h2>
             <address class="flex column flex-gap-1rem">
                 <ul class="flex column flex-gap-05rem font-responsive">
