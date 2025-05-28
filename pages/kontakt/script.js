@@ -10,37 +10,50 @@ function renderPage(){
     document.body.innerHTML = /*HTML*/`
     ${header()}
     <main role="main">
-    
-    
-        <div class="gradient-line top gradient-background"></div>
-    <section class="grid-layout">
-        <section class="contact-img-section">
-            <div class="img-container bottom-shadow outline">
+       
 
+
+        <section class="landingPageVideo landingPageImageContainer bottom-shadow background-color-green">
+            <div class="frontPageVideo ">
                 <img src="/img/placeholders/ai_people.webp" alt="">
             </div>
-           
-        </section>
-        <section class="main-margin">
-            <h1 class="">Kotakt oss</h1>
-            <address class="flex column flex-gap-1rem">
-                <ul class="flex column flex-gap-05rem">
-                    <li>
-                       <h3>Lars U. Kobro</h3>
-                       <i>SosNet koordinator og seniorforsker</i>
-                    </li>
-                    <li>
-                        <a class="font-responsive" href="mailto:kobro@usn.no">kobro@usn.no</a>
-                    </li>
-                    <li>
-                        <a class="font-responsive" href="tel:+4790942561">+47 909 42 561</a>
-                    </li>
-                </ul>
-            </address>
+        
+            <div class="overlay"></div>
+            <div class="overlayText">
+                <h1 class="main-color-3">Kontakt oss</h1>
+                <p class="font-responsive">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+             <div class="gradient-line gradient-background"></div>
         </section>
 
-        <section class="main-margin text-align-right">
-            <h1>Finn oss</h1>
+        <section class="grid-layout">
+            <section class="main-margin">
+                <h2>Ta kontakt</h2>
+                <div class="grid-layout-x2fr">
+                
+                    <div class="profile-img-mask">
+                        <img src="/img/placeholders/man.png" alt="">
+                    </div>
+                    <address class="flex column flex-gap-1rem">
+                        <ul class="flex column flex-gap-05rem">
+                            <li>
+                            <h3>Lars U. Kobro</h3>
+                            <i>SosNet koordinator og seniorforsker</i>
+                            </li>
+                            <li>
+                                <a class="font-responsive" href="mailto:kobro@usn.no">kobro@usn.no</a>
+                            </li>
+                            <li>
+                                <a class="font-responsive" href="tel:+4790942561">+47 909 42 561</a>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+            </section>
+
+        <section class="main-margin">
+            <h2>Finn oss</h2>
             <address class="flex column flex-gap-1rem">
                 <ul class="flex column flex-gap-05rem font-responsive">
                     <li>
@@ -52,10 +65,10 @@ function renderPage(){
                 </ul>
             </address>
         </section>
-        <section>
-            <div class="outline-2">${mapIframe}</div>
         </section>
-    </section>
+        <section>
+            <div class="">${mapIframe}</div>
+        </section>
 
     </main>
     ${footer()}

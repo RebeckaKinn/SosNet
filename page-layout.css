@@ -7,6 +7,12 @@
     grid-template-rows: auto;
     gap: 2rem;
 }
+.grid-layout-x2fr{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 2rem;
+}
 
 
 
@@ -45,6 +51,24 @@
     }
 }
 
+.profile-img-mask{
+    height: 100%;
+    width: 100%;
+    max-height: 300px;
+    -webkit-mask-image: url(img/components/SOSNETpuslespill.png);
+    mask-image: url(img/components/SOSNETpuslespill.png);
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+    img{
+        
+        height: 100%;
+        width: 100%;
+        object-fit:cover;
+        
+    }
+}
+
 .gradient-line{
     content: "";
     height: .5rem;
@@ -54,12 +78,12 @@
     left: 0;
     background: linear-gradient(90deg, #4ebe7a, #ffbb00, #d701a3, #ffbb00, #4ebe7a);
     background-size: 200%;
+    z-index: 5;
 }
 .gradient-line.top{
 
     bottom: initial;
     top: 0;
-    z-index: 5;
 
 }
 

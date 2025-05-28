@@ -5,6 +5,9 @@
     height: 70vh;
     overflow: hidden;
 }
+.landingPageImageContainer{
+    height: 50vh;
+}
 
 .frontPageVideo {
   position: absolute;
@@ -16,6 +19,13 @@
     object-position: center;
     z-index: 0;
     clip-path: polygon(86% 0, 100% 70%, 85% 100%, 0 100%, 0 0);
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
 }
 
 .overlay {
@@ -59,6 +69,17 @@
     }
 
 }
+
+.landingPageImageContainer .overlayText{
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    h1, h2{
+        margin: 0;
+        padding-left: 0;
+    }
+}
+
 
 @media screen and (max-width: 1400px){
     .overlayText{
