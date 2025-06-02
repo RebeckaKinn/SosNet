@@ -48,21 +48,24 @@ function content(){
         </section>
     </section>
 
-        <section class="main-margin flex column align-items-center">
-            <h2>Våre verdier</h2>
+        <section class="flex column align-items-center background-color-green bottom-shadow">
+            <h2 class="color-white">Våre verdier</h2>
             <div class="information-card-container">
+                
                 <article class="flex column align-items-center information-card text-align-center bottom-shadow">
-                    <h3>Mangfold som styrke</h3>
+                    <h3 class="main-color-3">Mangfold som styrke</h3>
                     <p>Ulike perspektiver skaper nye ideer, og det er i forskjellene vi finner mulighetene.</p>
                     <img src="/img/components/brikke.png" alt="">
                 </article>
                 <article class="flex column align-items-center information-card text-align-center">
-                    <h3>Samarbeid på tvers</h3>
+                    <h3 class="main-color-3">Samarbeid på tvers</h3>
                     <p>Vi samler aktører fra næringsliv, offentlige tjenester og frivillighet for å finne løsninger sammen.</p>
+                    <img src="/img/components/brikke_2.png" alt="">
                 </article>
                 <article class="flex column align-items-center information-card text-align-center">
-                    <h3>Handling for bærekraft</h3>
+                    <h3 class="main-color-3">Handling for bærekraft</h3>
                     <p>Sosial bærekraft er vårt felles ansvar. Hos oss blir idéer til handling.</p>
+                    <img src="/img/components/brikke_3.png" alt="">
                 </article>
             </div>
         </section>

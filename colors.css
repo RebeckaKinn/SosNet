@@ -36,6 +36,15 @@ svg.main-color-3{
     color: var(--color-background) !important;
 }
 
+.color-white{
+    color: var(--color-white) !important;
+}
+svg.color-white{
+    path{
+        fill: var(--color-white) !important;
+    }
+}
+
 
 .gradient-background {
   background: linear-gradient(265deg,#00c073,#ea00a6,#ffb600);
