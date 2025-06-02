@@ -28,18 +28,71 @@ function renderPage(){
             </div>
         </section>
 
-        <h1>Tittel</h1>
+        ${content()}
     </main>
     ${footer()}
     `;
 }
 
-// <h1><span class="main-color">Sos</span>Net</h1>
-/*
 
-  <iframe class="landingPageVideo" aria-live="polite"
-            src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1&loop=1">
-            </iframe>
+function content(){
+    return /*html*/`
+    <section class="grid-layout">
+        <section class="main-margin">
+            <h2>Hva er SosNet?</h2>
+            <p>SosNet er et regionalt nettverk for sosial bærekraft og innovasjon i Vestfold og Telemark. Vi kobler mennesker, ideer og prosjekter på tvers av sektorer – med mål om å skape et mer inkluderende og rettferdig samfunn.</p>
+        </section>
 
-*/
+        <section>
+            <img src="/img/placeholders/default_img.jpg" alt="">
+        </section>
+    </section>
+
+        <section class="main-margin flex column align-items-center">
+            <h2>Våre verdier</h2>
+            <div class="information-card-container">
+                <article class="flex column align-items-center information-card text-align-center bottom-shadow">
+                    <h3>Mangfold som styrke</h3>
+                    <p>Ulike perspektiver skaper nye ideer, og det er i forskjellene vi finner mulighetene.</p>
+                    <img src="/img/components/brikke.png" alt="">
+                </article>
+                <article class="flex column align-items-center information-card text-align-center">
+                    <h3>Samarbeid på tvers</h3>
+                    <p>Vi samler aktører fra næringsliv, offentlige tjenester og frivillighet for å finne løsninger sammen.</p>
+                </article>
+                <article class="flex column align-items-center information-card text-align-center">
+                    <h3>Handling for bærekraft</h3>
+                    <p>Sosial bærekraft er vårt felles ansvar. Hos oss blir idéer til handling.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="grid-layout">
+         <section class="main-margin">
+            <h2>Hva skjer?</h2>
+            <p>Hold deg oppdatert på kommende samlinger, workshops og initiativer.</p>
+            <ul class="">
+                <li>🌿 Kickoff for nye medlemmer – høsten 2025 (kommer snart)</li>
+                <li>💬 Webinar om sosial bærekraft i praksis</li>
+                <li>🤝 Nettverksmøte i Skien – dato annonseres</li>
+            </ul>
+        </section>
+
+         <section class="main-margin">
+            <blockquote class="">
+                «Det er ikke sant at like barn leker best. Når ulike barn kommer sammen, kan nye ideer og løsninger gro frem.»
+            </blockquote>
+        </section>
+
+        <section class="main-margin">
+            <h2>Bli med i fellesskapet</h2>
+            <p>Vil du bidra til sosial bærekraft i regionen? Bli en del av SosNet-nettverket og koble deg på engasjerte mennesker med samme mål.</p>
+            <button>
+                <a href="/pages/om_SosNet/medlemmer/script.js" class="">Les mer om medlemskap</a>
+            </button>
+        </section>
+    </section>
+    `;
+}
+
 

@@ -137,7 +137,29 @@
     border: 2px solid var(--color-main);
    
 }
+.information-card-container{
+   display: flex;
+   flex-direction: row;
+   gap: 2rem; 
+}
 
+.information-card{
+    width: 100%;
+    background-color: var(--color-main);
+    height: 100%;
+    padding: 1%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%, 0 80%);
+    box-shadow: 0px 8px 10px -5px var(--color-shadow);
+    p{
+       margin: 5%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .information-card-container{
+        flex-direction: column;
+    }
+
+}
 
 @media screen and (max-width: 900px){
     .grid-layout{
