@@ -166,6 +166,8 @@
         max-height: 100px;
     }
 }
+
+
 @media screen and (max-width: 1000px){
     .information-card-container{
         flex-direction: column;
