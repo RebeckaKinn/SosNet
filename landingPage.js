@@ -43,8 +43,10 @@ function content(){
             <p>SosNet er et regionalt nettverk for sosial bærekraft og innovasjon i Vestfold og Telemark. Vi kobler mennesker, ideer og prosjekter på tvers av sektorer – med mål om å skape et mer inkluderende og rettferdig samfunn.</p>
         </section>
 
-        <section>
-            <img src="/img/placeholders/default_img.jpg" alt="">
+        <section class="main-margin">
+            <div class="banner-img">
+                <img src="/../../img/components/SOSNETfigurer.png" alt="">
+            </div>
         </section>
     </section>
 

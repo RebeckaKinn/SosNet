@@ -54,12 +54,12 @@
 .profile-img-mask {
     width: 100%;
     max-height: 300px;
-    aspect-ratio: 1 / 1; /* Optional, or match mask's aspect ratio */
-    -webkit-mask-image: url(img/components/brikke.png);
+    aspect-ratio: 1 / 1; 
+    /* -webkit-mask-image: url(img/components/brikke.png);
     mask-image: url(img/components/brikke.png);
     mask-repeat: no-repeat;
-    mask-size: contain; /* ⬅️ Maintain aspect ratio */
-    mask-position: center;
+    mask-size: contain;
+    mask-position: center; */
     overflow: hidden;
     display: flex;
     align-items: stretch;
