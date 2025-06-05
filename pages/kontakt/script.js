@@ -6,7 +6,7 @@ window.footer = footer;
 
 renderPage()
 function renderPage(){
-    const mapIframe = embedMapByAddress("Kjølnes ring 56, 3918 Porsgrunn, Norway")
+   
     document.body.innerHTML = /*HTML*/`
     ${header()}
     <main role="main" class="flex-gap-2rem">
@@ -69,26 +69,10 @@ function renderPage(){
             </address>
         </section>
         </section>
-        <section class="map">
-            <div class="">${mapIframe}</div>
-        </section>
+        
 
     </main>
     ${footer()}
     `;
 }
 
- function embedMapByAddress(address) {
-  const encodedAddress = encodeURIComponent(address);
-  return /*HTML*/ `
-    <iframe
-      width="100%"
-      height="450"
-      style="border:0"
-      loading="lazy"
-      allowfullscreen
-      referrerpolicy="no-referrer-when-downgrade"
-      src="https://www.google.com/maps?q=${encodedAddress}&output=embed">
-    </iframe>
-  `;
-}

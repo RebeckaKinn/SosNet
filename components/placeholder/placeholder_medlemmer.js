@@ -2,7 +2,6 @@
 
 export function placeholder(){
     return /*HTML*/`
-        <section>
 
             <section class="landingPageVideo landingPageImageContainer background-color-green bottom-shadow" aria-live="polite">
                 <video class="frontPageVideo" playsinline autoplay muted loop>
@@ -12,18 +11,9 @@ export function placeholder(){
                 <div class="overlay"></div>
                 <div class="overlayText">
                     <h1 class="main-color-3">Under oppbygging</h1>
-                    <p class="font-responsive">Denne siden er under oppbygging. Vi jobber med å få innholdet på plass her.</p>
+                    <p class="font-responsive">Nettverket er i sin tidlige oppstart. Vi bygger opp både medlemsbasen og denne hjemmesiden. Det vil bli lagt en presentasjon av deltakere i nettverket her, fortløpende ila høsten 2025. Vil du være med der? Kontakt oss!</p>
                     <p class="font-responsive">Takk for tålmodigheten!</p>
                 </div>
-
-            </section>
-            <section class="main-margin flex column justify-content-center align-items-center">
-               <h2>Spørsmål?</h2>
-               <p class="text-align-center">Har du spørsmål om denne siden eller trenger mer informasjon? Ta gjerne kontakt med oss – vi hjelper deg gjerne!</p>
-               <button>
-                    <a href="/pages/kontakt/index.html">Kontakt oss</a>
-                </button>
-            </section>
         </section>
     `;
 }
