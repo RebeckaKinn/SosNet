@@ -1,2 +1,12 @@
+.advisory_board_content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
+
+    div{
+        aspect-ratio: 1/1;
+        height: 300px;
+    }
+}
 
