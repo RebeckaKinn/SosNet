@@ -67,14 +67,14 @@ function renderPage(){
 
             </section>
 
-            <section class="main-margin">
+            <section class="flex column align-items-center">
                 <h3>Advisory board er under rekruttering.</h3>
                 <section class="advisory_board_content">
                     <div>
-                        <img src="/img/placeholders/default_profile_img.jpg" alt="">
+                        <img src="/img/placeholders/ai_people.webp" alt="">
                     </div>
                     <div>
-                        <img src="/img/placeholders/default_profile_img.jpg" alt="">
+                        <img src="/img/placeholders/ai_people.webp" alt="">
                     </div>
                     <div>
                         <img src="/img/placeholders/default_profile_img.jpg" alt="">
