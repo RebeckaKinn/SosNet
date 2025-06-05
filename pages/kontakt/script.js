@@ -51,7 +51,19 @@ function renderPage(){
         
             </section>
 
-            <section></section>
+            <section>
+             <h2>Finn oss</h2>
+            <address class="flex column flex-gap-1rem">
+                <ul class="flex column flex-gap-05rem font-responsive">
+                    <li>
+                        <p><b  class="font-responsive">Universitetet I Sørøst-Norge</b></p>
+                        <p><i>Senter for sosialt entreprenørskap og samskapende sosial innovasjon, SESAM.</i></p>
+                    </li>
+                    <li>Kjølnes ring 56</li>
+                    <li>3918 Porsgrunn</li>
+                </ul>
+            </address>
+            </section>
 
             </section>
 
@@ -87,22 +99,6 @@ function renderPage(){
     `;
 }
 
-/*
-location (may not be used):
-<section class="">
-            <h2>Finn oss</h2>
-            <address class="flex column flex-gap-1rem">
-                <ul class="flex column flex-gap-05rem font-responsive">
-                    <li>
-                        <p><b  class="font-responsive">Universitetet I Sørøst-Norge</b></p>
-                        <p><i>Senter for sosialt entreprenørskap og samskapende sosial innovasjon, SESAM.</i></p>
-                    </li>
-                    <li>Kjølnes ring 56</li>
-                    <li>3918 Porsgrunn</li>
-                </ul>
-            </address>
-        </section>
-*/
 
 /*
 alternativ header image:
