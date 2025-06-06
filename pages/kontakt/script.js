@@ -72,6 +72,16 @@ function renderPage(){
                 <section class="advisory_board_content">
                     <div>
                         <img src="/img/placeholders/ai_people.webp" alt="">
+                        <address>
+                            <ul>
+                                <li>
+                                    <h3>Navn</h3>
+                                </li>
+                                <li>Organisasjon</li>
+                                <li>Mail</li>
+                                <li>Telefonnummer</li>
+                            </ul>
+                        </address>
                     </div>
                     <div>
                         <img src="/img/placeholders/ai_people.webp" alt="">
