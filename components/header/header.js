@@ -11,7 +11,7 @@ export function header(){
 }
 
  function logo() {
-    const isSmallScreen = window.matchMedia("(max-width: 768px)").matches;
+    const isSmallScreen = window.matchMedia("(max-width: 1400px)").matches;
     const logoSrc = isSmallScreen ? "/../img/logo/SosNet-logoSymbol-cropped.svg" : "/../img/logo/SosNet-logo.svg";
 
     return /*HTML*/`

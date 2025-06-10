@@ -41,7 +41,7 @@
 
 .overlayText{
     position: absolute;
-    top: 60%;
+    top: 50%; /*Byttet fra 60*/
     left: 30%;
     transform: translate(-50%, -50%);
     

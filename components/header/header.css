@@ -64,7 +64,7 @@ header{
     }
     li:not(.underline):hover > a{
         
-            font-size: large;
+            /* font-size: large; */
             font-weight: 900;
             text-decoration: none;
             
@@ -168,7 +168,7 @@ header{
 
 
 
-@media screen and (max-width: 1300px){
+@media screen and (max-width: 1125px){
     .wrapper-menu{
         display: flex;
         z-index: 25;
