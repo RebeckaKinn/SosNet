@@ -30,7 +30,7 @@ function renderPage(){
                     <h2>Ta kontakt</h2>
                 
                     <div class="profile-img-mask">
-                        <img src="/img/placeholders/man.png" alt="">
+                        <img src="/img/people/Lars_Kobro_portrett.JPG" alt="">
                     </div>
                 </div>
                 
