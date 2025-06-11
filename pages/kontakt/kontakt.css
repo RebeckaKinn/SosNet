@@ -39,6 +39,19 @@
     }
 }
 
+
+.contact-logo-container{
+    
+    aspect-ratio: 1/1;
+   width: 25px;
+
+    img{
+        
+        height: 100%;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width: 1400px){
 
  

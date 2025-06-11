@@ -24,17 +24,22 @@ function renderPage(){
        
 
         <section class="grid-layout main-margin">
+            <section>
+            
+            <div class="flex justify-content-center align-items-baseline flex-gap-1rem">
+            <div class="contact-logo-container">
+                    <img src="/img/some/phone.svg" alt="">
+                </div>
+                <h2>Ta kontakt</h2>
+                </div>
             <section class="grid-layout-x2fr">
 
-                <div class="flex column">
-                    <h2>Ta kontakt</h2>
                 
                     <div class="profile-img-mask">
                         <img src="/img/people/Lars_Kobro_portrett.JPG" alt="">
                     </div>
-                </div>
                 
-                    <address class="flex column flex-gap-1rem text-align-right">
+                    <address class="flex column flex-gap-1rem ">
                         <ul class="flex column flex-gap-05rem">
                             <li>
                             <h3>Lars U. Kobro</h3>
@@ -50,9 +55,15 @@ function renderPage(){
                     </address>
         
             </section>
+            </section>
 
             <section>
-             <h2>Finn oss</h2>
+                <div class="flex justify-content-center align-items-baseline flex-gap-1rem">
+                <div class="contact-logo-container">
+                    <img src="/img/some/location.svg" alt="">
+                </div>
+                    <h2>Finn oss</h2>
+                </div>
             <address class="flex column flex-gap-1rem">
                 <ul class="flex column flex-gap-05rem font-responsive">
                     <li>
@@ -71,7 +82,7 @@ function renderPage(){
                 <h3>Advisory board er under rekruttering.</h3>
                 <section class="advisory_board_content">
                     <div>
-                        <img src="/img/placeholders/ai_people.webp" alt="">
+                        <img src="/img/placeholders/default_profile_img.jpg" alt="">
                         <address>
                             <ul>
                                 <li>
@@ -84,7 +95,7 @@ function renderPage(){
                         </address>
                     </div>
                     <div>
-                        <img src="/img/placeholders/ai_people.webp" alt="">
+                        <img src="/img/placeholders/default_profile_img.jpg" alt="">
                     </div>
                     <div>
                         <img src="/img/placeholders/default_profile_img.jpg" alt="">
