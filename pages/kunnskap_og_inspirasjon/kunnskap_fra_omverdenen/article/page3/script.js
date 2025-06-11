@@ -13,12 +13,12 @@ function renderPage(){
     <main role="main">
 
         <article>
-            <section class="grid-layout article-header">
-                <div class="article-header-img">
+            <section class="grid-layout article-header background-color-green-linear bottom-shadow">
+                <div class="article-header-img bottom-shadow">
                     <img src="/img/placeholders/meeting_stock_photo.jpg" alt="">
                 </div>
-                <div class="">
-                    <h1>Sosial bærekraft på styrets bord!</h1>
+                <div class="main-margin article-header-text">
+                    <h1 class="main-color-3">Sosial bærekraft på styrets bord!</h1>
                     <p>Synes du det blir for mye snakk om bærekraft? Er det litt uklart hva bærekraft egentlig er, sier du? Da må du passe deg litt, så du ikke havner i bærekraftsamtalenes utenforskap. For nå drar det seg bare mere til!</p>          
                 </div>
             </section>
