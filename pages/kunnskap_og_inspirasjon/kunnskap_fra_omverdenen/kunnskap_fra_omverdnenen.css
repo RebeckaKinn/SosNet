@@ -1,23 +1,28 @@
 .article_board_content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-  
+    gap: 20px 20px;
 
-    /* div{
-       
-        height: auto;
-        
+    margin: 0 5%;
+    article{
 
-        img{
+        justify-self: center;
+        display: grid;
+        grid-template-rows: 100px auto 1fr;
+    }
+ 
+}
+
+.article-illustration-container{
+    height: 300px;
+    width: 100%;
+    img{
             border-radius: 1rem;
             height: 100%;
             width: 100%;
             object-fit: cover;
             object-position: center center;
         }
-       
-       
-    } */
 }
 
 
@@ -27,6 +32,9 @@
         grid-template-columns: auto;
         grid-template-rows:repeat(3, 1fr);
     }
+    .article-illustration-container{
+        height: 500px;
 
+    }
 
 }
