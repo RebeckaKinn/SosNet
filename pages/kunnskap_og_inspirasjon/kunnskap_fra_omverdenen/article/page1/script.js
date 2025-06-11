@@ -12,7 +12,7 @@ function renderPage(){
          <article>
             <section class="grid-layout article-header background-color-green-linear bottom-shadow">
                 <div class="article-header-img bottom-shadow">
-                    <img src="/img/placeholders/default_img.jpg" alt="">
+                    <img src="/img/partners/images/hjertnes.jpg" alt="">
                 </div>
                 <div class="main-margin article-header-text">
                     <h1 class="main-color-3">Tittel</h1>
