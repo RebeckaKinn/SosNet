@@ -9,6 +9,16 @@
         justify-self: center;
         display: grid;
         grid-template-rows: 100px auto 1fr;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        p, a:not(.article-illustration-container){
+            width: 100%;
+            max-width: 500px;
+        }
     }
  
 }
@@ -23,6 +33,7 @@
             object-fit: cover;
             object-position: center center;
         }
+    
 }
 
 
