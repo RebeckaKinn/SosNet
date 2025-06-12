@@ -12,7 +12,7 @@ function renderPage(){
 
      <section class="page-header bottom-shadow">
             <div class="page-header-img" >
-                 <img src="/img/placeholders/ai_people_2.jpg" alt="">
+                 <img src="/img/placeholders/person_stock_photo.jpg" alt="">
             </div>
 
           
