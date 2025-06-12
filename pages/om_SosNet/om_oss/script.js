@@ -50,7 +50,7 @@ function renderPage(){
                     
                 </div>
                 <div>
-                    <p>Tekst om medlemskap inn her. Priser, betingelser, fordeler, etc. </p>
+                    <p></p>
                 </div>
             </article>
         </section>

@@ -24,15 +24,13 @@ function renderPage(){
        
 
         <section class="grid-layout main-margin">
+
             <section>
-            
-            <div class="flex justify-content-center align-items-baseline flex-gap-1rem">
-            <div class="contact-logo-container">
-                    <img src="/img/some/phone.svg" alt="">
-                </div>
+             <div class="flex justify-content-center align-items-baseline flex-gap-1rem">
+                
                 <h2>Ta kontakt</h2>
                 </div>
-            <section class="grid-layout-x2fr">
+            <section class="grid-layout-x2fr contact-info-card bottom-shadow">
 
                 
                     <div class="profile-img-mask">
@@ -46,10 +44,10 @@ function renderPage(){
                             <i>SosNet koordinator og seniorforsker</i>
                             </li>
                             <li>
-                                <a class="font-responsive" href="mailto:kobro@usn.no">kobro@usn.no</a>
+                                <a href="mailto:kobro@usn.no">kobro@usn.no</a>
                             </li>
                             <li>
-                                <a class="font-responsive" href="tel:+4790942561">+47 909 42 561</a>
+                                <a href="tel:+4790942561">+47 909 42 561</a>
                             </li>
                         </ul>
                     </address>
@@ -59,19 +57,17 @@ function renderPage(){
 
             <section>
                 <div class="flex justify-content-center align-items-baseline flex-gap-1rem">
-                <div class="contact-logo-container">
-                    <img src="/img/some/location.svg" alt="">
-                </div>
+                
                     <h2>Finn oss</h2>
                 </div>
-            <address class="flex column flex-gap-1rem">
-                <ul class="flex column flex-gap-05rem font-responsive">
+            <address class="flex column flex-gap-1rem contact-info-card bottom-shadow">
+                <ul class="flex column flex-gap-05rem">
                     <li>
-                        <p><b  class="font-responsive">Universitetet I Sørøst-Norge</b></p>
+                        <h3>Universitetet I Sørøst-Norge</h3>
                         <p><i>Senter for sosialt entreprenørskap og samskapende sosial innovasjon, SESAM.</i></p>
                     </li>
-                    <li>Kjølnes ring 56</li>
-                    <li>3918 Porsgrunn</li>
+                    <li><b>Kjølnes ring 56</b></li>
+                    <li><b>3918 Porsgrunn</b></li>
                 </ul>
             </address>
             </section>
