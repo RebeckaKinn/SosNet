@@ -9,6 +9,9 @@
     }
 }
 
+.article-title{
+    margin: 3% 5%;
+}
 
 .article_board_content{
     display: grid;
