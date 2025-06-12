@@ -68,37 +68,36 @@
 
 .article-header-text{
     height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-  padding: 5% 0;
+    padding: 5% 0;
 }
 
 
-/*
-FIKSE DET TIL Å BLI BRA PÅ KUNNSKAP-SIDEN!! kortere og enklere
 
-.landingPageVideo{
+
+
+
+
+.page-header{
     position: relative;
     width: 100%;
-    height: 70vh;
+    height: 45vh;
     overflow: hidden;
 }
-.landingPageImageContainer{
-    height: 50vh;
-}
 
-.frontPageVideo {
-  position: absolute;
+
+.page-header-img {
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: center;
+    
     z-index: 0;
-    clip-path: polygon(86% 0, 100% 70%, 85% 100%, 0 100%, 0 0);
+    
 
     img{
         height: 100%;
@@ -108,21 +107,21 @@ FIKSE DET TIL Å BLI BRA PÅ KUNNSKAP-SIDEN!! kortere og enklere
     }
 }
 
-.overlay {
+.page-header .page-header-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--color-overlay);
+    background-color: var(--color-overlay-2);
     z-index: 1;
 
 }
 
-.overlayText{
+.page-header .page-header-overlayText{
     position: absolute;
     top: 50%; 
-    left: 30%;
+    left: 50%;
     transform: translate(-50%, -50%);
     
   
@@ -138,55 +137,22 @@ FIKSE DET TIL Å BLI BRA PÅ KUNNSKAP-SIDEN!! kortere og enklere
     h1, h2{
         
         margin: 0;
-        padding-left: 10%;
+       
     }
     h2{
         font-weight: 100;
     }
-    .logo{
-        max-width: 300px;
-        height: auto;
-    }
+   
 
 }
 
-.landingPageImageContainer .overlayText{
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    h1, h2{
-        margin: 0;
-        padding-left: 0;
+
+
+@media screen and (max-width: 700px){
+    .page-header{
+        height: 60vh;
     }
 }
-
-
-@media screen and (max-width: 1400px){
-    .overlayText{
-        left: 40%;
-    }
-}
-@media screen and (max-width: 950px){
-    .overlayText{
-        padding:0 5%;
-        left: 50%;
-
-        width: 100%;
-        h1, h2{
-                padding-left: 5%;
-            }
-        .logo{
-            max-width: 200px;
-        }
-
-    }
-
-    .frontPageVideo {
-        clip-path: none;
-    }
-}
-
-*/
 
 @media screen and (max-width: 1100px){
 
@@ -200,3 +166,10 @@ FIKSE DET TIL Å BLI BRA PÅ KUNNSKAP-SIDEN!! kortere og enklere
     }
 
 }
+@media screen and (max-width: 1400px){
+    .page-header-overlayText{
+        left: 40%;
+    }
+}
+
+

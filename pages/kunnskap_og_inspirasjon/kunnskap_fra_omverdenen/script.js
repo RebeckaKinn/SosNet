@@ -10,18 +10,14 @@ function renderPage(){
     ${header()}
     <main role="main">
 
-     <section class="landingPageVideo background-color-green" >
-            <div class="frontPageVideo" >
+     <section class="page-header bottom-shadow">
+            <div class="page-header-img" >
                  <img src="/img/placeholders/ai_people_2.jpg" alt="">
             </div>
 
           
-            <div class="overlay"></div>
-            <div class="overlayText">
- 
-                    
-                   
-               
+            <div class="page-header-overlay"></div>
+            <div class="page-header-overlayText">
                 <h1 class="main-color-3">Kunnskap og inspirasjon</h1>
                <p>Her deler vi historier, refleksjoner og innblikk som gir påfyll – enten du jobber med bærekraft, samfunnsutvikling, innovasjon eller bare er nysgjerrig. Oppslagene varierer i format og innhold, men har det til felles at de løfter frem initiativ, perspektiver og løsninger som kan bidra til en mer bærekraftig og inkluderende framtid.</p>
             </div>
