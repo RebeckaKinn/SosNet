@@ -56,9 +56,10 @@
 .contact-info-card{
     padding: 5%;
     background-color: var(--color-white);
-    border: 1px solid var(--color-main-3);
+    border-top: 1px solid var(--color-main-3);
     border-radius: 2rem;
     min-height: 300px;
+
 }
 
 @media screen and (max-width: 1400px){
