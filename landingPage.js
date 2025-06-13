@@ -76,11 +76,9 @@ function content(){
          <section class="main-margin">
             <h2>Hva skjer?</h2>
             <p>Hold deg oppdatert på kommende samlinger, workshops og initiativer.</p>
-            <ul class="">
-                <li>🌿 Kickoff for nye medlemmer – høsten 2025 (kommer snart)</li>
-                <li>💬 Webinar om sosial bærekraft i praksis</li>
-                <li>🤝 Nettverksmøte i Skien – dato annonseres</li>
-            </ul>
+            <button>
+                <a href="/pages/aktuelt/index.html" class="">Se hva som skjer</a>
+            </button>
         </section>
 
          <section class="main-margin">
@@ -93,7 +91,7 @@ function content(){
             <h2>Bli med i fellesskapet</h2>
             <p>Vil du bidra til sosial bærekraft i regionen? Bli en del av SosNet-nettverket og koble deg på engasjerte mennesker med samme mål.</p>
             <button>
-                <a href="/pages/om_SosNet/medlemmer/script.js" class="">Les mer om medlemskap</a>
+                <a href="/pages/om_SosNet/medlemmer/index.html" class="">Les mer om medlemskap</a>
             </button>
         </section>
     </section>
