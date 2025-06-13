@@ -82,10 +82,18 @@ function content(){
         </section>
 
          <section class="main-margin">
+            <h2>Kommende arrangementer</h2>
+            <p>Kommer snart!</p>
+            
+        </section>
+
+         <section class="main-margin">
             <blockquote class="">
                 «Det er ikke sant at like barn leker best. Når ulike barn kommer sammen, kan nye ideer og løsninger gro frem.»
             </blockquote>
         </section>
+
+      
 
         <section class="main-margin">
             <h2>Bli med i fellesskapet</h2>
