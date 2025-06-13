@@ -1,0 +1,63 @@
+.advisory_board_content{
+    padding-top: 100px;
+    width: auto;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    justify-content: center;
+
+    margin: 0 5%;
+
+    div{
+
+        height: auto;
+        min-height: 300px;
+        width: 350px;
+
+        display: grid;
+        grid-template-rows: 50% 50%;
+
+        img{
+           
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+            object-position: center center;
+        }
+        
+       
+    }
+}
+
+@media screen and (max-width: 400px){
+    .advisory_board_content{
+       
+        div{
+
+            width: 100%;
+
+
+            
+            
+        
+        }
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .advisory_board_content{
+       
+        div{
+
+            width: 400px;
+
+
+            
+            
+        
+        }
+    }
+}

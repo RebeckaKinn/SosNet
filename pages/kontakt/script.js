@@ -85,8 +85,12 @@ function renderPage(){
                                     <h3>Navn</h3>
                                 </li>
                                 <li>Organisasjon</li>
-                                <li>Mail</li>
-                                <li>Telefonnummer</li>
+                                <li>
+                                    <a href="mailto:">Mail</a>
+                                </li>
+                                <li>
+                                    <a href="tel:">Telefonnummer</a>
+                                </li>
                             </ul>
                         </address>
                     </div>

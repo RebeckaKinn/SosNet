@@ -19,6 +19,64 @@ function renderPage(){
                     <a href="/pages/kontakt/index.html">Kontakt oss</a>
                 </button>
             </section>
+
+
+        <section class="flex column align-items-center">
+                
+                <section class="advisory_board_content">
+                    <div>
+                        <img src="/img/partners/iFokus.jpeg.png" alt="">
+                        <address>
+                            <ul>
+                                <li>
+                                    <h3>iFokus</h3>
+                                </li>
+                                <li>Kjetil Henrik Kristiansen, <i>daglig leder</i></li>
+                                <li>
+                                    <a href="mailto:kjetil.henrik.kristiansen@ifokus.as">kjetil.henrik.kristiansen@ifokus.as</a>
+                                </li>
+                                <li>
+                                    <a href="https://ifokus.as" target="_blank">iFokus.as</a>
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
+                    <div>
+                        <img src="/img/partners/Sparebankstiftelsen.png" alt="">
+                        <address>
+                            <ul>
+                                <li>
+                                    <h3>Sparebankstiftelsen Telemark</h3>
+                                </li>
+                                <li>Dag Terje Olsen, <i>daglig leder</i></li>
+                                <li>
+                                    <a href="mailto:jto@sparebankstiftelsen-telemark.nos">jto@sparebankstiftelsen-telemark.no</a>
+                                </li>
+                                <li>
+                                    <a href="https://sparebankstiftelsen-telemark.no" target="_blank">sparebankstiftelsen-telemark.no</a>
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
+                    <div>
+                        <img src="/img/partners/USN.png" alt="">
+                        <address>
+                            <ul>
+                                <li>
+                                    <h3>Universitetet i Sørøst-Norge</h3>
+                                </li>
+                                <li>Lars U. Kobro, <i>seniorforsker</i></li>
+                                <li>
+                                    <a href="mailto:kobro@usn.no">kobro@usn.no</a>
+                                </li>
+                                <li>
+                                    <a href="https://usn.no/sesam" target="_blank">usn.no/sesam</a>
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
+                   
+                </section>
     </main>
     ${footer()}
     `;
