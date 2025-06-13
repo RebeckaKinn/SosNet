@@ -87,8 +87,11 @@ function content(){
             
         </section>
 
-         <section class="main-margin">
-            <blockquote class="">
+         <section class="image-under-content">
+            <div class="frontPageVideo">
+                <img src="/img/placeholders/puzzle.jpg" alt="">
+            </div>
+            <blockquote class="image-under-content-overlayText">
                 «Det er ikke sant at like barn leker best. Når ulike barn kommer sammen, kan nye ideer og løsninger gro frem.»
             </blockquote>
         </section>
