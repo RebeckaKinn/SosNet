@@ -15,11 +15,11 @@ function renderPage(){
                 <h1 class="main-color-3">Hvem er vi?</h1>
                 <p>SosNet er et regionalt nettverk med aktører fra ulike sektorer som, gjennom sin ulikhet, vil  bidra med å øke sosial bærekraft i næringslivet, i offentlige tjenester og i sivilsamfunnet i Vestfold og Telemark.</p>
                 <div>
-                    <button>
-                        <a href="/pages/om_SosNet/medlemmer/index.html">Møt våre medlemmer</a>
+                    <button onclick="location.href='/pages/om_SosNet/medlemmer/index.html'">
+                        Møt våre medlemmer
                     </button>
-                     <button>
-                        <a href="/pages/kontakt/index.html">Kontakt oss</a>
+                     <button onclick="location.href='/pages/kontakt/index.html'">
+                        Kontakt oss
                     </button>
                 </div>
                 </article>

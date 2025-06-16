@@ -15,8 +15,8 @@ function renderPage(){
         <section class="main-margin flex column justify-content-center align-items-center">
                <h2>Spørsmål?</h2>
                <p class="text-align-center">Har du spørsmål om medlemskap eller annet? Ta kontakt!</p>
-               <button>
-                    <a href="/pages/kontakt/index.html">Kontakt oss</a>
+               <button onclick="location.href='/pages/kontakt/index.html'">
+                    Kontakt oss
                 </button>
             </section>
 

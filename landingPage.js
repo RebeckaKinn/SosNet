@@ -76,8 +76,8 @@ function content(){
          <section class="main-margin">
             <h2>Hva skjer?</h2>
             <p>Hold deg oppdatert på kommende samlinger, workshops og initiativer.</p>
-            <button>
-                <a href="/pages/aktuelt/index.html" class="">Se hva som skjer</a>
+            <button onclick="location.href='/pages/aktuelt/index.html'">
+                Se hva som skjer
             </button>
         </section>
 
@@ -102,8 +102,8 @@ function content(){
         <section class="main-margin">
             <h2>Bli med i fellesskapet</h2>
             <p>Vil du bidra til sosial bærekraft i regionen? Bli en del av SosNet-nettverket og koble deg på engasjerte mennesker med samme mål.</p>
-            <button>
-                <a href="/pages/om_SosNet/medlemmer/index.html" class="">Les mer om medlemskap</a>
+            <button onclick="location.href='/pages/om_SosNet/medlemmer/index.html'">
+                Les mer om medlemskap
             </button>
         </section>
     </section>

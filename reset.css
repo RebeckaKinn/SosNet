@@ -36,13 +36,12 @@ a{
 
 
 a {
-  -webkit-tap-highlight-color: transparent;
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-focus-ring-color: transparent !important;
+  box-shadow: none !important;
 }
-a:focus,
-a:focus-visible,
-a:focus:not(:focus-visible) {
-  outline: none;
-}
+
 
 input[type="checkbox"]:focus:not(:focus-visible) {
   outline: none;
@@ -57,4 +56,15 @@ label.wrapper-menu {
 }
 label.wrapper-menu:focus {
   outline: none;
+}
+
+button {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  background: transparent;
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-focus-ring-color: transparent !important;
+  -moz-focusring: none;
+  user-select: none;
 }

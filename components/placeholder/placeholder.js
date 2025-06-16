@@ -20,8 +20,8 @@ export function placeholder(){
             <section class="main-margin flex column justify-content-center align-items-center">
                <h2>Spørsmål?</h2>
                <p class="text-align-center">Har du spørsmål om denne siden eller trenger mer informasjon? Ta gjerne kontakt med oss – vi hjelper deg gjerne!</p>
-               <button>
-                    <a href="/pages/kontakt/index.html">Kontakt oss</a>
+               <button onclick="location.href='/pages/kontakt/index.html'">
+                   Kontakt oss
                 </button>
             </section>
         </section>
