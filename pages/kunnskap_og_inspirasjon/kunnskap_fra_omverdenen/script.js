@@ -43,7 +43,7 @@ function renderPage(){
                     <article>
                         <h3>GET Academy løser floker!</h3>
                         <a href="/pages/kunnskap_og_inspirasjon/kunnskap_fra_omverdenen/article/page2/index.html" class="article-illustration-container">
-                            <img src="/img/partners/images/get.webp" alt="">
+                            <img src="/img/partners/images/getacademy.png" alt="">
                         </a>
                         <div>
                             <p>Mange bedrifter sliter med å finne utviklere som både har teknisk kompetanse og forstår hvordan man jobber i team og løser reelle utfordringer. GET Academy tar ansvar for hele prosessen – fra rekruttering og opplæring til praksis i bedrift.</p> 

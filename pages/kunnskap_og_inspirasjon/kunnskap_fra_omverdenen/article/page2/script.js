@@ -12,7 +12,7 @@ function renderPage(){
             <article>
             <section class="grid-layout article-header background-color-green-linear bottom-shadow">
                 <div class="article-header-img bottom-shadow">
-                    <img src="/img/partners/images/get.webp" alt="">
+                    <img src="/img/partners/images/getacademy.png" alt="">
                 </div>
                 <div class="main-margin article-header-text">
                     <h1 class="main-color-3">GET Academy</h1>
@@ -30,7 +30,9 @@ function renderPage(){
                 </section>
 
                 <section>
-                
+                    <div>
+                        <img src="/img/partners/images/getacademy_trapp.png" alt="Studietrappen til GET Academy">
+                    </div>
                 </section>
 
                 <section>
