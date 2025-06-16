@@ -36,11 +36,21 @@ a{
 
 
 a {
-  outline: none !important;
   -webkit-tap-highlight-color: transparent !important;
   -webkit-focus-ring-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  user-select: none;
+}
+
+a:focus,
+a:focus-visible,
+a:focus:not(:focus-visible) {
+  outline: none !important;
   box-shadow: none !important;
 }
+
 
 
 input[type="checkbox"]:focus:not(:focus-visible) {
