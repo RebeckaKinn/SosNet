@@ -74,7 +74,15 @@ function renderPage(){
 
             </section>
 
-            <section class="flex column align-items-center">
+            ${printAdvisoryBoard()}
+    </main>
+    ${footer()}
+    `;
+}
+
+function printAdvisoryBoard(){
+    return /*HTML */`
+    <section class="flex column align-items-center">
                 <h3>Advisory board er under rekruttering.</h3>
                 <section class="advisory_board_content">
                     <div>
@@ -111,30 +119,6 @@ function renderPage(){
                     </div>
                 </section>
             </section>
-
-        
-        
-
-    </main>
-    ${footer()}
+    
     `;
 }
-
-
-/*
-alternativ header image:
- <section class="landingPageVideo landingPageImageContainer bottom-shadow background-color-green">
-            <div class="frontPageVideo ">
-                <img src="/img/placeholders/ai_people.webp" alt="">
-            </div>
-        
-            <div class="overlay"></div>
-            <div class="overlayText">
-                <h1 class="main-color-3">Kontakt oss</h1>
-                <p class="font-responsive">SosNet er et handlingsorientert nettverk, ikke en organisasjon. Vi har derfor ikke et styre i konvensjonell forstand. I stedet styrer vi nettverkets retning og aktiviteter mest mulig kollektivt, i form av fire åpne nettverksmøter årlig. Mellom møtene er det et Advisory Board som snakker seg framover og oppover mot nettverks målsetting om mer og bedre sosial bærekraft i Vestfold og Telemark.</p>
-            </div>
-
-             <div class="gradient-line gradient-background"></div>
-        </section>
-
-*/

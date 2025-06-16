@@ -32,3 +32,10 @@ a[href^='tel\:']::before
 a{
   color: var(--color-main);
 }
+a:focus {
+  outline: none;
+}
+
+input[type="checkbox"]:focus {
+  outline: none;
+}
