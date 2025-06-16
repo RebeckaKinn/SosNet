@@ -32,10 +32,32 @@ a[href^='tel\:']::before
 a{
   color: var(--color-main);
 }
+
+
+
+a {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 a:focus {
   outline: none;
 }
 
-input[type="checkbox"]:focus {
+a:focus-visible {
+  outline: none;
+}
+input[type="checkbox"]:focus:not(:focus-visible) {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+label.wrapper-menu {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
+  appearance: none;
+}
+label.wrapper-menu:focus {
   outline: none;
 }
