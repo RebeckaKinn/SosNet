@@ -46,7 +46,9 @@ function renderPage(){
                             <img src="/img/partners/images/get.webp" alt="">
                         </a>
                         <div>
-                            <p>Legg til tekst</p> 
+                            <p>Mange bedrifter sliter med å finne utviklere som både har teknisk kompetanse og forstår hvordan man jobber i team og løser reelle utfordringer. GET Academy tar ansvar for hele prosessen – fra rekruttering og opplæring til praksis i bedrift.</p> 
+                            <p>Gjennom vår unike modell starter kandidatene med Start IT, et intensivt teknisk løp, etterfulgt av Get Prepared, der de trener samarbeid, selvledelse og problemløsning. Når de går ut i praksis, er de allerede rigget for å levere verdi – med faglig støtte hele veien.</p>
+                            <p>Bedriften får ikke bare hjelp til å dekke ressursbehov – men også en kandidat som forstår arbeidsformen, teknologien og utfordringene. Mindre onboarding. Mer fremdrift. Faktisk effekt.</p>
                             <a href="/pages/kunnskap_og_inspirasjon/kunnskap_fra_omverdenen/article/page2/index.html">Se mer.</a>
                         </div>
                     </article>
