@@ -35,21 +35,27 @@ a{
 
 
 
-a {
-  -webkit-tap-highlight-color: transparent !important;
-  -webkit-focus-ring-color: transparent !important;
+a,
+svg {
   outline: none !important;
   box-shadow: none !important;
   border: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+  -webkit-focus-ring-color: transparent !important;
+  -moz-focusring: none !important;
   user-select: none;
 }
 
 a:focus,
 a:focus-visible,
-a:focus:not(:focus-visible) {
+a:focus:not(:focus-visible),
+svg:focus,
+svg:focus-visible,
+svg:focus:not(:focus-visible) {
   outline: none !important;
   box-shadow: none !important;
 }
+
 
 
 
