@@ -87,7 +87,7 @@ function printAdvisoryBoard(){
                 <section class="advisory_board_content">
                     <div>
                         <img src="/img/placeholders/default_profile_img.jpg" alt="">
-                        <address>
+                       <!-- <address>
                             <ul>
                                 <li>
                                     <h3>Navn</h3>
@@ -100,7 +100,8 @@ function printAdvisoryBoard(){
                                     <a href="tel:">Telefonnummer</a>
                                 </li>
                             </ul>
-                        </address>
+                        </address> 
+                        -->
                     </div>
                     <div>
                         <img src="/img/placeholders/default_profile_img.jpg" alt="">
