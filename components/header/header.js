@@ -25,7 +25,7 @@ export function header(){
 
 //endre til at den lytter til klikk på mobil og ikke hover på popups. 
 
- function mainNav(){
+ function mainNav2(){
     return /*HTML*/`
     <nav id="menu" aria-label="Hovedmeny">
 
@@ -80,6 +80,68 @@ export function header(){
     
     `;
 }
+function mainNav(){
+    return /*HTML*/`
+    <nav id="menu" aria-label="Hovedmeny">
+
+        <input id="burger-menu" type="checkbox" aria-label="Åpne/lukk meny" aria-expanded="false" aria-controls="menu-list"/>
+        <label for="burger-menu" class="wrapper-menu" aria-label="Åpne meny" role="button">
+            <span class="line-menu half start"></span>
+            <span class="line-menu"></span>
+            <span class="line-menu half end"></span>
+        </label>
+
+        <ul id="menu-list" class="removeBullet menu" role="menubar">
+            <li role="none">
+                <a href="/index.html" role="menuitem">Hjem</a> 
+            </li>
+            <li role="none">
+                <a class="submenu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-omSosnet" role="menuitem" href="#">
+                    <span class="arrow-indicator">${arrowSvg()}</span>
+                    Om SosNet
+                </a> 
+                <ul id="submenu-omSosnet" class="removeBullet popUpSection column flex-gap-1rem" role="menu" hidden>
+                    <li role="none" class="underline">
+                        <a href="/pages/om_SosNet/om_oss/index.html" role="menuitem">Om oss</a>
+                    </li>
+                    <li role="none" class="underline">
+                        <a href="/pages/om_SosNet/medlemmer/index.html" role="menuitem">Medlemmer</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li role="none">
+                <a href="/pages/aktuelt/index.html" role="menuitem">Aktuelt og arrangementer</a>
+            </li>
+            <li role="none">
+                <a class="submenu-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-kunnskap" role="menuitem" href="#">
+                    <span class="arrow-indicator">${arrowSvg()}</span>
+                    Kunnskap og inspirasjon
+                </a>
+                <ul id="submenu-kunnskap" class="removeBullet popUpSection column flex-gap-1rem" role="menu" hidden>
+                    <li role="none" class="underline">
+                        <a role="menuitem" href="/pages/kunnskap_og_inspirasjon/kunnskap_fra_omverdenen/index.html">Kunnskap fra omverdenen</a>
+                    </li>
+                    <li role="none" class="underline">
+                        <a role="menuitem" href="/pages/kunnskap_og_inspirasjon/inspirasjon_fra_praksis/index.html">Inspirasjon fra praksis</a>
+                    </li>
+                </ul>    
+            </li>
+            <li role="none">
+                <a role="menuitem" href="/pages/kontakt/index.html">Kontakt</a>
+            </li>
+            <li role="none" class="searchbar">
+                <input id="site-search" type="text" placeholder="Søk" role="searchbox">
+                <div class="svg-mask" aria-hidden="true"></div>
+            </li>
+            <li role="none" aria-label="Språkvalg">
+                ${flagIcons()}
+            </li>
+        </ul>
+    </nav>
+    `;
+}
+
 
 
 function arrowSvg(){
@@ -119,3 +181,38 @@ function flagIcons(){
     `;
 }
 
+
+
+
+export function initAccessibleMenus() {
+    const submenuToggles = document.querySelectorAll(".submenu-toggle");
+
+    submenuToggles.forEach(toggle => {
+        const submenuId = toggle.getAttribute("aria-controls");
+        const submenu = document.getElementById(submenuId);
+
+        if (!submenu) return;
+
+        toggle.addEventListener("click", (e) => {
+            e.preventDefault();
+            const isOpen = toggle.getAttribute("aria-expanded") === "true";
+            toggle.setAttribute("aria-expanded", String(!isOpen));
+            submenu.hidden = isOpen;
+        });
+
+        
+        document.addEventListener("click", (e) => {
+            if (!toggle.contains(e.target) && !submenu.contains(e.target)) {
+                toggle.setAttribute("aria-expanded", "false");
+                submenu.hidden = true;
+            }
+        });
+    });
+
+    const burger = document.getElementById("burger-menu");
+    if (burger) {
+        burger.addEventListener("change", () => {
+            burger.setAttribute("aria-expanded", burger.checked ? "true" : "false");
+        });
+    }
+}
