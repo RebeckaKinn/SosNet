@@ -1,7 +1,8 @@
-import {header} from "./components/header/header.js"
+import {header, initAccessibleMenus} from "./components/header/header.js"
 import {footer} from "./components/footer/footer.js"
 
 window.header = header;
+window.initAccessibleMenus = initAccessibleMenus;
 window.footer = footer;
 
 renderPage()
@@ -32,6 +33,7 @@ function renderPage(){
     </main>
     ${footer()}
     `;
+    initAccessibleMenus();
 }
 
 
