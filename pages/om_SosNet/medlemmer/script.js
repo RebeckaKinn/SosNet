@@ -53,6 +53,10 @@ function renderPage(){
                                 <li>
                                     <a href="mailto:kobro@usn.no">kobro@usn.no</a>
                                 </li>
+                                <li>Ramona Lorentsen, <i>Daglig Leder SESAM</i></li>
+                                <li>
+                                    <a href="mailto:ramona.lorentsen@usn.no">ramona.lorentsen@usn.no</a>
+                                </li>
                                 <li>
                                     <a href="https://usn.no/sesam" target="_blank">usn.no/sesam</a>
                                 </li>
