@@ -85,7 +85,24 @@ function content(){
 
          <section class="main-margin">
             <h2>Kommende arrangementer</h2>
-            <p>Kommer snart!</p>
+            <section>
+                <h3>Informasjons og rekrutteringsmøte</h3>
+                <p>I begynnelsen av september blir det informasjon og mobiliseringsmøter for etablering av SosNet. Velg ut ett av de tre følgende møtene. De vil være like i innhold, så du trenger bare å velge det som passer deg/dere best mht. tid eller lokalitet. Møtet varer fra 10.00 – 11.30. Vi serverer lunsj fra 11.30 – 12.00.</p>
+                <ul>
+                    <li><b>Tirsdag 2.9. Kl. 10.00 – 12.00.</b> <i>Colab Larvik sentrum. Vertskap/sted: NHO.</i></li>
+                    <li><b>Onsdag 3.9. Kl. 10.00 – 12.00.</b> <i>Campus Vestfold. Bakkenteigen. Vertskap/sted: USN.</i></li>
+                    <li><b>Torsdag 4.9. kl. 10.00 – 12.00.</b> <i>Fylkeshuset i Skien. Vertskap/sted: TFK.</i></li>
+                </ul>
+                <p>
+                    Det vil være enkelt program, med eksempler og konkretisering av SosNets mål og arbeidsform. Vi vil ikke forvente signering av noe forpliktende dokumenter/innmelding til nettverket på møtet. Det vil foregå, for interesserte i dagene/ukene, etterpå. Vi vil sette pris på å vite om dere kommer, og i tilfelle hvem. Møtet er gratis, men vi vil vite hvem som kommer!
+                </p>
+                <div>
+                    <p><b>Meld deg på Informasjons og rekrutteringsmøtet her:</b></p>
+                    <a href="https://nettskjema.no/a/537671" target="_blank">
+                        <button>Påmelding</button>
+                    </a>
+                </div>
+            </section>
             
         </section>
 
