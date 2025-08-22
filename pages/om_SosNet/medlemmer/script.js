@@ -63,6 +63,23 @@ function renderPage(){
                             </ul>
                         </address>
                     </div>
+                     <div>
+                        <img src="/img/partners/telemark_fylkeskommune_logo.png" alt="">
+                        <address>
+                            <ul>
+                                <li>
+                                    <h3>Sparebankstiftelsen Telemark</h3>
+                                </li>
+                                <li>Jon Steinar Tufte, <i>Fylkessjef samfunnsutvikling</i></li>
+                                <li>
+                                    <a href="mailto:jon.steinar.tufte@telemarkfylke.no">jon.steinar.tufte@telemarkfylke.no</a>
+                                </li>
+                                <li>
+                                    <a href="tel:92292468">922 92 468</a>
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
                    
                 </section>
     </main>
