@@ -108,7 +108,7 @@ function content(){
 
          <section class="image-under-content">
             <div class="frontPageVideo">
-                <img src="/img/placeholders/puzzle.jpg" alt="">
+                <img src="/img/placeholders/person_stock_photo.jpg" alt="">
             </div>
             
             <blockquote class="image-under-content-overlayText bottom-shadow">
