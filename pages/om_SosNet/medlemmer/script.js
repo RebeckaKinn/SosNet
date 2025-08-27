@@ -85,7 +85,7 @@ function renderPage(){
                                 </li>
                                 <li>
                                     <h4 class="name">Jon Steinar Tufte</h4>
-                                    <i>Fylkessjef samfunnsutvikling</i>
+                                    <i>fylkessjef samfunnsutvikling</i>
                                 </li>
                                 <li>
                                     <a href="mailto:jon.steinar.tufte@telemarkfylke.no">jon.steinar.tufte@telemarkfylke.no</a>
@@ -112,6 +112,26 @@ function renderPage(){
                                 </li>
                                 <li>
                                     <a href="tel:90654828">906 54 828</a>
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
+                    <div>
+                        <img src="/img/partners/NHO_vestfold_telemark.png" alt="">
+                        <address>
+                            <ul>
+                                <li>
+                                    <h3 class="name">Kontaktperson</h3>
+                                </li>
+                                <li>
+                                    <h4 class="name">Kristin Saga</h4>
+                                    <i>regiondirektør</i>
+                                </li>
+                                <li>
+                                    <a href="mailto:kristin.saga@nho.no">kristin.saga@nho.no</a>
+                                </li>
+                                <li>
+                                    <a href="tel:90181077">901 81 077</a>
                                 </li>
                             </ul>
                         </address>
