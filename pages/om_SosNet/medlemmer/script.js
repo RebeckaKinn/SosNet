@@ -30,9 +30,10 @@ function renderPage(){
                         <address>
                             <ul>
                                 <li>
-                                    <h3>Sparebankstiftelsen Telemark</h3>
+                                    <h3 class="name">Jan Terje Olsen</h3>
+                                    <i>daglig leder</i>
                                 </li>
-                                <li>Jan Terje Olsen, <i>daglig leder</i></li>
+                                
                                 <li>
                                     <a href="mailto:jto@sparebankstiftelsen-telemark.nos">jto@sparebankstiftelsen-telemark.no</a>
                                 </li>
@@ -47,13 +48,17 @@ function renderPage(){
                         <address>
                             <ul>
                                 <li>
-                                    <h3>Universitetet i Sørøst-Norge</h3>
+                                    <h3 class="name">Lars U. Kobro</h3>
+                                    <i>seniorforsker</i>
                                 </li>
-                                <li>Lars U. Kobro, <i>seniorforsker</i></li>
+                        
                                 <li>
                                     <a href="mailto:kobro@usn.no">kobro@usn.no</a>
                                 </li>
-                                <li>Ramona Lorentsen, <i>Daglig Leder SESAM</i></li>
+                                <li>
+                                    <h3 class="name">Ramona Lorentsen</h3>
+                                    <i>Daglig Leder SESAM</i>
+                                </li>
                                 <li>
                                     <a href="mailto:ramona.lorentsen@usn.no">ramona.lorentsen@usn.no</a>
                                 </li>
@@ -68,14 +73,31 @@ function renderPage(){
                         <address>
                             <ul>
                                 <li>
-                                    <h3>Sparebankstiftelsen Telemark</h3>
+                                    <h3 class="name">Jon Steinar Tufte</h3>
+                                    <i>Fylkessjef samfunnsutvikling</i>
                                 </li>
-                                <li>Jon Steinar Tufte, <i>Fylkessjef samfunnsutvikling</i></li>
                                 <li>
                                     <a href="mailto:jon.steinar.tufte@telemarkfylke.no">jon.steinar.tufte@telemarkfylke.no</a>
                                 </li>
                                 <li>
                                     <a href="tel:92292468">922 92 468</a>
+                                </li>
+                            </ul>
+                        </address>
+                    </div>
+                     <div>
+                        <img src="/img/partners/START_Logo_H.jpg" alt="">
+                        <address>
+                            <ul>
+                                <li>
+                                    <h3 class="name">Merete Østerud</h3>
+                                    <i></i>
+                                </li>
+                                <li>
+                                    <a href="mailto:Merete.Osterud@sandefjord.kommune.no">Merete.Osterud@sandefjord.kommune.no</a>
+                                </li>
+                                <li>
+                                    <a href="tel:90654828">906 54 828</a>
                                 </li>
                             </ul>
                         </address>

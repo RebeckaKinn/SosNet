@@ -26,10 +26,15 @@
             width: 100%;
             object-fit: contain;
             object-position: center center;
+            padding-bottom: 10px;
         }
-        
+     
        
     }
+}
+
+.name{
+    margin: 0px;
 }
 
 @media screen and (max-width: 400px){
