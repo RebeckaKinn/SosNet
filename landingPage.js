@@ -25,7 +25,7 @@ function renderPage(){
                    
                
                 <h1>En <span class="main-color-3">sosial innovasjons</span> hub</h1>
-                <h2 class="font-responsive">for inspirasjon og kunnskap om sosial bærekraft og sosialt entreprenærskap i Vestfold og Telemark.</h2>
+                <h2 class="font-responsive">for inspirasjon og kunnskap om sosial bærekraft og sosialt entreprenørskap i Vestfold og Telemark.</h2>
             </div>
         </section>
 
