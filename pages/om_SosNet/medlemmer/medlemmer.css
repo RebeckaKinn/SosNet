@@ -33,9 +33,15 @@
     }
 }
 
-.name{
+h4.name{
     margin: 0px;
+    font-size: 18px;
 }
+h3.name{
+    margin-top: 0px;
+    font-size: 22px;
+}
+
 
 @media screen and (max-width: 400px){
     .advisory_board_content{

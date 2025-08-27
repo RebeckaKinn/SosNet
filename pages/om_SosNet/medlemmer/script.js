@@ -26,11 +26,16 @@ function renderPage(){
                 <section class="advisory_board_content">
                     
                     <div>
-                        <img src="/img/partners/Sparebankstiftelsen.png" alt="">
+                        <div class="image_partner_container">
+                            <img src="/img/partners/Sparebankstiftelsen.png" alt="">
+                        </div>
                         <address>
                             <ul>
                                 <li>
-                                    <h3 class="name">Jan Terje Olsen</h3>
+                                    <h3 class="name">Kontaktperson</h3>
+                                </li>
+                                <li>
+                                    <h4 class="name">Jan Terje Olsen</h4>
                                     <i>daglig leder</i>
                                 </li>
                                 
@@ -48,7 +53,10 @@ function renderPage(){
                         <address>
                             <ul>
                                 <li>
-                                    <h3 class="name">Lars U. Kobro</h3>
+                                    <h3 class="name">Kontaktpersoner</h3>
+                                </li>
+                                <li>
+                                    <h4 class="name">Lars U. Kobro</h4>
                                     <i>seniorforsker</i>
                                 </li>
                         
@@ -56,7 +64,7 @@ function renderPage(){
                                     <a href="mailto:kobro@usn.no">kobro@usn.no</a>
                                 </li>
                                 <li>
-                                    <h3 class="name">Ramona Lorentsen</h3>
+                                    <h4 class="name">Ramona Lorentsen</h4>
                                     <i>Daglig Leder SESAM</i>
                                 </li>
                                 <li>
@@ -73,7 +81,10 @@ function renderPage(){
                         <address>
                             <ul>
                                 <li>
-                                    <h3 class="name">Jon Steinar Tufte</h3>
+                                    <h3 class="name">Kontaktperson</h3>
+                                </li>
+                                <li>
+                                    <h4 class="name">Jon Steinar Tufte</h4>
                                     <i>Fylkessjef samfunnsutvikling</i>
                                 </li>
                                 <li>
@@ -90,7 +101,10 @@ function renderPage(){
                         <address>
                             <ul>
                                 <li>
-                                    <h3 class="name">Merete Østerud</h3>
+                                    <h3 class="name">Kontaktperson</h3>
+                                </li>
+                                <li>
+                                    <h4 class="name">Merete Østerud</h4>
                                     <i></i>
                                 </li>
                                 <li>
