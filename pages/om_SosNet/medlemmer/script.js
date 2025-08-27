@@ -36,7 +36,7 @@ function renderPage(){
                                 </li>
                                 <li>
                                     <h4 class="name">Jan Terje Olsen</h4>
-                                    <i>daglig leder</i>
+                                    <i>Daglig Leder</i>
                                 </li>
                                 
                                 <li>
@@ -57,7 +57,7 @@ function renderPage(){
                                 </li>
                                 <li>
                                     <h4 class="name">Lars U. Kobro</h4>
-                                    <i>seniorforsker</i>
+                                    <i>Seniorforsker</i>
                                 </li>
                         
                                 <li>
@@ -85,7 +85,7 @@ function renderPage(){
                                 </li>
                                 <li>
                                     <h4 class="name">Jon Steinar Tufte</h4>
-                                    <i>fylkessjef samfunnsutvikling</i>
+                                    <i>Fylkessjef Samfunnsutvikling</i>
                                 </li>
                                 <li>
                                     <a href="mailto:jon.steinar.tufte@telemarkfylke.no">jon.steinar.tufte@telemarkfylke.no</a>
@@ -125,7 +125,7 @@ function renderPage(){
                                 </li>
                                 <li>
                                     <h4 class="name">Kristin Saga</h4>
-                                    <i>regiondirektør</i>
+                                    <i>Regiondirektør</i>
                                 </li>
                                 <li>
                                     <a href="mailto:kristin.saga@nho.no">kristin.saga@nho.no</a>
