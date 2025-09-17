@@ -86,22 +86,14 @@ function content(){
          <section class="main-margin">
             <h2>Kommende arrangementer</h2>
             <section>
-                <h3>Informasjons og rekrutteringsmøte</h3>
-                <p>I begynnelsen av september blir det informasjon og mobiliseringsmøter for etablering av SosNet. Velg ut ett av de tre følgende møtene. De vil være like i innhold, så du trenger bare å velge det som passer deg/dere best mht. tid eller lokalitet. Møtet varer fra 10.00 – 11.30. Vi serverer lunsj fra 11.30 – 12.00.</p>
+                <h3>Lansering</h3>
+                <p>I uke 36 (2025) lanserte vi SosNet i form av tre like arrangementer i hhv. Horten, Larvik og Skien. Over 50 mennesker i sum, møtte opp. Det ble gitt informasjon om nettverkets mål, ambisjoner og arbeidsform, så langt det er besluttet. I den forbindelse ble det pekt på at et «klynge-inspirert» nettverk, som SosNet er, må skapes av deltakerne. Ut fra målsettingene om å skape et handlingsorientert fellesskap av organisasjoner som vil utfordres og utfordre hverandre, vil det utvikles et årshjul med både samtaler og samhandling på en måte som deltakerne vil oppleve både nyttig og trivelig.</p>
+                <p>Nedenfor finner du presentasjoner fra informasjons- og mobiliseringsmøtene:</p>
                 <ul>
-                    <li><b>Tirsdag 2.9. Kl. 10.00 – 12.00.</b> <i>Colab Larvik sentrum. Vertskap/sted: NHO.</i></li>
-                    <li><b>Onsdag 3.9. Kl. 10.00 – 12.00.</b> <i>Campus Vestfold. Bakkenteigen. Vertskap/sted: USN.</i></li>
-                    <li><b>Torsdag 4.9. kl. 10.00 – 12.00.</b> <i>Fylkeshuset i Skien. Vertskap/sted: TFK.</i></li>
+                    <li><a href="./documents/Living_Lab.pdf" target="_new">Living Lab</a></li>
+                    <li><a href="./documents/Sosnet_møter_uke_36_Innledning.pdf" target="_new">Sosnet møter uke 36 - Innledning</a></li>
+                    <li><a href="./documents/Presentasjon_fra_Sparebankstiftelsen_Telemark.pdf" target="_new">Presentasjon fra Sparebankstiftelsen Telemark</a></li>
                 </ul>
-                <p>
-                    Det vil være enkelt program, med eksempler og konkretisering av SosNets mål og arbeidsform. Vi vil ikke forvente signering av noe forpliktende dokumenter/innmelding til nettverket på møtet. Det vil foregå, for interesserte i dagene/ukene, etterpå. Vi vil sette pris på å vite om dere kommer, og i tilfelle hvem. Møtet er gratis, men vi vil vite hvem som kommer!
-                </p>
-                <div>
-                    <p><b>Meld deg på Informasjons og rekrutteringsmøtet her:</b></p>
-                    <a href="https://nettskjema.no/a/537671" target="_blank">
-                        <button>Påmelding</button>
-                    </a>
-                </div>
             </section>
             
         </section>
